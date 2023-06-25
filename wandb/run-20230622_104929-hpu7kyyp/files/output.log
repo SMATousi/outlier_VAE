@@ -1,0 +1,1293 @@
+
+Generation 1
+292.3726766967773
+Generation 2
+350.5250534057617
+Generation 3
+373.60393890380857
+Generation 4
+377.1178930664062
+Generation 5
+377.1178930664062
+Generation 6
+381.3549001057943
+Generation 7
+378.4007318115234
+Generation 8
+380.618171081543
+Generation 9
+380.618171081543
+Generation 10
+380.618171081543
+Generation 11
+380.618171081543
+Generation 12
+380.618171081543
+Generation 13
+380.618171081543
+Generation 14
+380.618171081543
+Generation 15
+380.618171081543
+Generation 16
+380.618171081543
+Generation 17
+380.618171081543
+Generation 18
+380.618171081543
+Generation 19
+382.37952392578126
+Generation 20
+380.618171081543
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+483.6596964518229
+Generation 2
+559.2833097330729
+Generation 3
+607.0638458251954
+Generation 4
+619.9902237955729
+Generation 5
+659.8333898925781
+Generation 6
+650.9782047526041
+Generation 7
+644.6808337402343
+Generation 8
+653.4294028727213
+Generation 9
+653.4294028727213
+Generation 10
+663.2418284098308
+Generation 11
+663.4991851806641
+Generation 12
+663.4991851806641
+Generation 13
+666.2882796223959
+Generation 14
+666.2882796223959
+Generation 15
+666.5270284016927
+Generation 16
+675.3019108072916
+Generation 17
+689.7538313802083
+Generation 18
+689.7538313802083
+Generation 19
+689.7538313802083
+Generation 20
+689.7538313802083
+##########  End of the  2  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+737.75033203125
+Generation 2
+819.7811828613281
+Generation 3
+912.0758205159506
+Generation 4
+915.6425406901042
+Generation 5
+915.6425406901042
+Generation 6
+941.1017354329427
+Generation 7
+983.4165177408854
+Generation 8
+983.4165177408854
+Generation 9
+983.4165177408854
+Generation 10
+983.4165177408854
+Generation 11
+983.4165177408854
+Generation 12
+985.9126027425131
+Generation 13
+985.9126027425131
+Generation 14
+1010.1093607584636
+Generation 15
+992.3343983968099
+Generation 16
+992.3343983968099
+Generation 17
+992.3343983968099
+Generation 18
+992.3343983968099
+Generation 19
+995.2090209960937
+Generation 20
+1003.184501953125
+##########  End of the  3  epoch ##########
+Parameters of the best solution : [1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+983.5931433105469
+Generation 2
+1035.1890441894532
+Generation 3
+1122.6535026041668
+Generation 4
+1146.0934651692708
+Generation 5
+1212.987929280599
+Generation 6
+1157.804764404297
+Generation 7
+1208.1483544921875
+Generation 8
+1196.0484887695313
+Generation 9
+1219.1240006510416
+Generation 10
+1219.1240006510416
+Generation 11
+1219.1240006510416
+Generation 12
+1233.4375406901042
+Generation 13
+1233.4375406901042
+Generation 14
+1233.4375406901042
+Generation 15
+1233.4375406901042
+Generation 16
+1233.4375406901042
+Generation 17
+1233.4375406901042
+Generation 18
+1233.4375406901042
+Generation 19
+1233.4375406901042
+Generation 20
+1233.4375406901042
+##########  End of the  4  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+1237.6667244466146
+Generation 2
+1380.2780297851561
+Generation 3
+1399.2698767089844
+Generation 4
+1412.3560294596355
+Generation 5
+1399.2698767089844
+Generation 6
+1438.9883813476563
+Generation 7
+1442.737794189453
+Generation 8
+1442.737794189453
+Generation 9
+1447.9912386067708
+Generation 10
+1474.8736311848959
+Generation 11
+1477.0511555989583
+Generation 12
+1477.0511555989583
+Generation 13
+1477.0511555989583
+Generation 14
+1477.0511555989583
+Generation 15
+1477.0511555989583
+Generation 16
+1477.0511555989583
+Generation 17
+1477.0511555989583
+Generation 18
+1477.0511555989583
+Generation 19
+1477.0511555989583
+Generation 20
+1477.0511555989583
+##########  End of the  5  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+1363.506573486328
+Generation 2
+1494.8888671875
+Generation 3
+1683.1387125651042
+Generation 4
+1661.6525634765626
+Generation 5
+1709.4869360351563
+Generation 6
+1706.9295556640625
+Generation 7
+1706.9295556640625
+Generation 8
+1706.9295556640625
+Generation 9
+1706.9295556640625
+Generation 10
+1766.5121956380208
+Generation 11
+1781.8022737630208
+Generation 12
+1781.8022737630208
+Generation 13
+1781.8022737630208
+Generation 14
+1781.8022737630208
+Generation 15
+1781.8022737630208
+Generation 16
+1781.8022737630208
+Generation 17
+1781.8022737630208
+Generation 18
+1781.8022737630208
+Generation 19
+1781.8022737630208
+Generation 20
+1781.8022737630208
+##########  End of the  6  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+1458.643125
+Generation 2
+1702.4431896972656
+Generation 3
+1909.10255859375
+Generation 4
+1913.9221744791666
+Generation 5
+1916.541795654297
+Generation 6
+1916.541795654297
+Generation 7
+1951.8195068359375
+Generation 8
+1967.1922135416667
+Generation 9
+1963.3929817708333
+Generation 10
+1963.3929817708333
+Generation 11
+1963.3929817708333
+Generation 12
+1963.3929817708333
+Generation 13
+1963.3929817708333
+Generation 14
+1963.3929817708333
+Generation 15
+1963.3929817708333
+Generation 16
+1963.3929817708333
+Generation 17
+1963.3929817708333
+Generation 18
+1963.3929817708333
+Generation 19
+1963.3929817708333
+Generation 20
+1963.3929817708333
+##########  End of the  7  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+1981.20037109375
+Generation 2
+2117.07236328125
+Generation 3
+2231.173369954427
+Generation 4
+2149.6155379231773
+Generation 5
+2155.6187109375
+Generation 6
+2186.188828125
+Generation 7
+2186.188828125
+Generation 8
+2224.537412109375
+Generation 9
+2186.188828125
+Generation 10
+2186.188828125
+Generation 11
+2186.188828125
+Generation 12
+2186.188828125
+Generation 13
+2186.188828125
+Generation 14
+2272.700290527344
+Generation 15
+2231.57953125
+Generation 16
+2235.282421875
+Generation 17
+2235.282421875
+Generation 18
+2235.282421875
+Generation 19
+2235.282421875
+Generation 20
+2235.282421875
+##########  End of the  8  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+2150.619365234375
+Generation 2
+2097.8051057942707
+Generation 3
+2208.9642333984375
+Generation 4
+2244.8431030273437
+Generation 5
+2244.8431030273437
+Generation 6
+2244.8431030273437
+Generation 7
+2244.8431030273437
+Generation 8
+2244.8431030273437
+Generation 9
+2244.8431030273437
+Generation 10
+2252.80580078125
+Generation 11
+2244.8431030273437
+Generation 12
+2244.8431030273437
+Generation 13
+2244.8431030273437
+Generation 14
+2256.840234375
+Generation 15
+2318.150859375
+Generation 16
+2318.150859375
+Generation 17
+2318.150859375
+Generation 18
+2318.150859375
+Generation 19
+2318.150859375
+Generation 20
+2318.150859375
+##########  End of the  9  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+1948.99853515625
+Generation 2
+2114.45330078125
+Generation 3
+2474.7388834635417
+Generation 4
+2509.6616064453124
+Generation 5
+2501.2778483072916
+Generation 6
+2501.2778483072916
+Generation 7
+2501.64421875
+Generation 8
+2542.6141764322915
+Generation 9
+2529.535856119792
+Generation 10
+2541.1971321614583
+Generation 11
+2541.1971321614583
+Generation 12
+2541.1971321614583
+Generation 13
+2541.1971321614583
+Generation 14
+2541.1971321614583
+Generation 15
+2541.1971321614583
+Generation 16
+2541.1971321614583
+Generation 17
+2541.1971321614583
+Generation 18
+2541.1971321614583
+Generation 19
+2541.1971321614583
+Generation 20
+2541.1971321614583
+##########  End of the  10  epoch ##########
+Parameters of the best solution : [0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+2070.1302058919273
+Generation 2
+2248.888837890625
+Generation 3
+2454.6629622395835
+Generation 4
+2512.9885286458334
+Generation 5
+2589.29953125
+Generation 6
+2657.3428125
+Generation 7
+2657.3428125
+Generation 8
+2657.3428125
+Generation 9
+2657.3428125
+Generation 10
+2657.3428125
+Generation 11
+2657.3428125
+Generation 12
+2657.3428125
+Generation 13
+2657.3428125
+Generation 14
+2657.3428125
+Generation 15
+2657.3428125
+Generation 16
+2657.3428125
+Generation 17
+2657.3428125
+Generation 18
+2657.3428125
+Generation 19
+2657.3428125
+Generation 20
+2657.3428125
+##########  End of the  11  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 1. 0. 0. 0. 0.]
+Generation 1
+2347.183828125
+Generation 2
+2512.8486474609376
+Generation 3
+2580.257109375
+Generation 4
+2582.5692936197916
+Generation 5
+2584.02412109375
+Generation 6
+2682.1786499023438
+Generation 7
+2650.0468017578123
+Generation 8
+2682.7547119140627
+Generation 9
+2687.14595703125
+Generation 10
+2687.14595703125
+Generation 11
+2687.14595703125
+Generation 12
+2696.7333666992185
+Generation 13
+2687.14595703125
+Generation 14
+2687.14595703125
+Generation 15
+2687.14595703125
+Generation 16
+2687.14595703125
+Generation 17
+2687.14595703125
+Generation 18
+2687.14595703125
+Generation 19
+2721.1561197916667
+Generation 20
+2687.14595703125
+##########  End of the  12  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+2240.975390625
+Generation 2
+2629.2831876627606
+Generation 3
+2733.3678670247396
+Generation 4
+2853.0147290039063
+Generation 5
+2862.884903971354
+Generation 6
+2862.884903971354
+Generation 7
+2862.884903971354
+Generation 8
+2862.884903971354
+Generation 9
+2961.960234375
+Generation 10
+2961.960234375
+Generation 11
+2961.960234375
+Generation 12
+2961.960234375
+Generation 13
+2961.960234375
+Generation 14
+2961.960234375
+Generation 15
+2961.960234375
+Generation 16
+2961.960234375
+Generation 17
+2961.960234375
+Generation 18
+2961.960234375
+Generation 19
+2961.960234375
+Generation 20
+2961.960234375
+##########  End of the  13  epoch ##########
+Parameters of the best solution : [0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+2394.121301269531
+Generation 2
+2697.845859375
+Generation 3
+2779.7798860677085
+Generation 4
+2892.8492692057293
+Generation 5
+2999.694521484375
+Generation 6
+3048.9322330729165
+Generation 7
+3070.7190185546874
+Generation 8
+3070.7190185546874
+Generation 9
+3070.7190185546874
+Generation 10
+3070.7190185546874
+Generation 11
+3070.7190185546874
+Generation 12
+3070.7190185546874
+Generation 13
+3070.7190185546874
+Generation 14
+3070.7190185546874
+Generation 15
+3070.7190185546874
+Generation 16
+3070.7190185546874
+Generation 17
+3070.7190185546874
+Generation 18
+3070.7190185546874
+Generation 19
+3070.7190185546874
+Generation 20
+3070.7190185546874
+##########  End of the  14  epoch ##########
+Parameters of the best solution : [0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+2576.8628955078125
+Generation 2
+2778.8352213541666
+Generation 3
+2979.1627408854165
+Generation 4
+2938.2359814453125
+Generation 5
+3157.440729980469
+Generation 6
+3118.7415079752604
+Generation 7
+3160.4268098958332
+Generation 8
+3160.4268098958332
+Generation 9
+3160.4268098958332
+Generation 10
+3160.4268098958332
+Generation 11
+3160.4268098958332
+Generation 12
+3176.01
+Generation 13
+3160.4268098958332
+Generation 14
+3184.24228515625
+Generation 15
+3164.7937255859374
+Generation 16
+3160.4268098958332
+Generation 17
+3160.4268098958332
+Generation 18
+3160.4268098958332
+Generation 19
+3327.299514973958
+Generation 20
+3160.4268098958332
+##########  End of the  15  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+2751.0953767903648
+Generation 2
+2877.80173828125
+Generation 3
+3067.143544108073
+Generation 4
+3166.2010872395836
+Generation 5
+3217.8424934895834
+Generation 6
+3349.77861328125
+Generation 7
+3349.77861328125
+Generation 8
+3349.77861328125
+Generation 9
+3349.77861328125
+Generation 10
+3349.77861328125
+Generation 11
+3349.77861328125
+Generation 12
+3349.77861328125
+Generation 13
+3349.77861328125
+Generation 14
+3465.9927571614585
+Generation 15
+3465.9927571614585
+Generation 16
+3465.9927571614585
+Generation 17
+3465.9927571614585
+Generation 18
+3465.9927571614585
+Generation 19
+3465.9927571614585
+Generation 20
+3465.9927571614585
+##########  End of the  16  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+2679.518603515625
+Generation 2
+3068.0669799804687
+Generation 3
+3187.612512207031
+Generation 4
+3346.7509562174478
+Generation 5
+3307.3350813802085
+Generation 6
+3305.26625
+Generation 7
+3341.926687011719
+Generation 8
+3501.4409912109377
+Generation 9
+3501.4409912109377
+Generation 10
+3501.4409912109377
+Generation 11
+3501.4409912109377
+Generation 12
+3501.4409912109377
+Generation 13
+3501.4409912109377
+Generation 14
+3501.4409912109377
+Generation 15
+3501.4409912109377
+Generation 16
+3501.4409912109377
+Generation 17
+3501.4409912109377
+Generation 18
+3501.4409912109377
+Generation 19
+3501.4409912109377
+Generation 20
+3501.4409912109377
+##########  End of the  17  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+2868.216943359375
+Generation 2
+3040.9437825520836
+Generation 3
+3338.5795947265624
+Generation 4
+3382.6251123046877
+Generation 5
+3382.6251123046877
+Generation 6
+3411.0394417317707
+Generation 7
+3382.6251123046877
+Generation 8
+3382.6251123046877
+Generation 9
+3438.4250716145834
+Generation 10
+3382.6251123046877
+Generation 11
+3519.085185546875
+Generation 12
+3482.3694954427083
+Generation 13
+3482.3694954427083
+Generation 14
+3482.3694954427083
+Generation 15
+3482.3694954427083
+Generation 16
+3482.3694954427083
+Generation 17
+3482.3694954427083
+Generation 18
+3482.3694954427083
+Generation 19
+3482.3694954427083
+Generation 20
+3482.3694954427083
+##########  End of the  18  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+3230.79326171875
+Generation 2
+3224.255537109375
+Generation 3
+3347.9079931640626
+Generation 4
+3353.75443766276
+Generation 5
+3409.73525390625
+Generation 6
+3460.8007080078123
+Generation 7
+3510.566318359375
+Generation 8
+3496.6503963216146
+Generation 9
+3496.6503963216146
+Generation 10
+3496.6503963216146
+Generation 11
+3496.6503963216146
+Generation 12
+3527.335930989583
+Generation 13
+3533.9053841145833
+Generation 14
+3556.158239746094
+Generation 15
+3598.0624145507813
+Generation 16
+3598.0624145507813
+Generation 17
+3598.0624145507813
+Generation 18
+3598.0624145507813
+Generation 19
+3598.0624145507813
+Generation 20
+3598.0624145507813
+##########  End of the  19  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+3055.2484700520836
+Generation 2
+3370.708776855469
+Generation 3
+3465.8787841796875
+Generation 4
+3664.5114501953126
+Generation 5
+3668.8239298502604
+Generation 6
+3711.2273177083334
+Generation 7
+3668.8239298502604
+Generation 8
+3730.42033203125
+Generation 9
+3742.4353841145835
+Generation 10
+3742.4353841145835
+Generation 11
+3742.4353841145835
+Generation 12
+3742.4353841145835
+Generation 13
+3742.4353841145835
+Generation 14
+3749.3927954101564
+Generation 15
+3753.328955078125
+Generation 16
+3747.9748388671874
+Generation 17
+3747.9748388671874
+Generation 18
+3747.9748388671874
+Generation 19
+3747.9748388671874
+Generation 20
+3747.9748388671874
+##########  End of the  20  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0.
+ 0. 1. 0. 0. 0. 0.]
+Generation 1
+3267.9779663085938
+Generation 2
+3438.059697265625
+Generation 3
+3631.2999446614585
+Generation 4
+3654.4515852864583
+Generation 5
+3686.280247395833
+Generation 6
+3775.0070678710936
+Generation 7
+3685.71888671875
+Generation 8
+3685.71888671875
+Generation 9
+3685.71888671875
+Generation 10
+3685.71888671875
+Generation 11
+3685.71888671875
+Generation 12
+3685.71888671875
+Generation 13
+3741.7127685546875
+Generation 14
+3727.3746720377603
+Generation 15
+3685.71888671875
+Generation 16
+3685.71888671875
+Generation 17
+3685.71888671875
+Generation 18
+3685.71888671875
+Generation 19
+3685.71888671875
+Generation 20
+3685.71888671875
+##########  End of the  21  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+3435.476774902344
+Generation 2
+3431.5936328125
+Generation 3
+3462.9941943359377
+Generation 4
+3449.7111865234374
+Generation 5
+3598.574845377604
+Generation 6
+3723.0262841796875
+Generation 7
+3741.3975927734373
+Generation 8
+3741.3975927734373
+Generation 9
+3741.3975927734373
+Generation 10
+3741.3975927734373
+Generation 11
+3835.794876302083
+Generation 12
+3753.6100341796873
+Generation 13
+3776.6446728515625
+Generation 14
+3753.6100341796873
+Generation 15
+3753.6100341796873
+Generation 16
+3753.6100341796873
+Generation 17
+3772.8496321614584
+Generation 18
+3765.5760611979167
+Generation 19
+3767.7170914713543
+Generation 20
+3775.30291015625
+##########  End of the  22  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+3374.7240657552084
+Generation 2
+3715.9569718424477
+Generation 3
+3718.8700927734376
+Generation 4
+3963.171796875
+Generation 5
+3847.5432202148436
+Generation 6
+3850.9119140625
+Generation 7
+3847.5432202148436
+Generation 8
+3847.5432202148436
+Generation 9
+3847.5432202148436
+Generation 10
+3953.5134309895834
+Generation 11
+3959.252099609375
+Generation 12
+3959.252099609375
+Generation 13
+3959.252099609375
+Generation 14
+3986.748291015625
+Generation 15
+3961.846686197917
+Generation 16
+3961.846686197917
+Generation 17
+3961.846686197917
+Generation 18
+3961.846686197917
+Generation 19
+3961.846686197917
+Generation 20
+3961.846686197917
+##########  End of the  23  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+3399.5848022460937
+Generation 2
+3510.328564453125
+Generation 3
+3636.22916015625
+Generation 4
+3788.830393066406
+Generation 5
+3793.1394075520834
+Generation 6
+3855.7989876302086
+Generation 7
+3880.753113606771
+Generation 8
+3945.761533203125
+Generation 9
+4011.338818359375
+Generation 10
+3945.761533203125
+Generation 11
+3945.761533203125
+Generation 12
+3945.761533203125
+Generation 13
+3945.761533203125
+Generation 14
+3945.761533203125
+Generation 15
+3945.761533203125
+Generation 16
+3985.9564697265623
+Generation 17
+3985.9564697265623
+Generation 18
+3985.9564697265623
+Generation 19
+3985.9564697265623
+Generation 20
+3988.229549153646
+##########  End of the  24  epoch ##########
+Parameters of the best solution : [0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+3814.2659521484375
+Generation 2
+3899.5225911458333
+Generation 3
+3952.8430338541666
+Generation 4
+4084.5218359375
+Generation 5
+4188.625123697917
+Generation 6
+4114.246077473958
+Generation 7
+4105.275930989584
+Generation 8
+4316.440068359375
+Generation 9
+4316.440068359375
+Generation 10
+4316.440068359375
+Generation 11
+4316.440068359375
+Generation 12
+4316.440068359375
+Generation 13
+4316.440068359375
+Generation 14
+4316.440068359375
+Generation 15
+4316.440068359375
+Generation 16
+4316.440068359375
+Generation 17
+wandb: Network error (ConnectTimeout), entering retry loop.
+4316.440068359375
+Generation 18
+4316.440068359375
+Generation 19
+4316.440068359375
+Generation 20
+4316.440068359375
+##########  End of the  25  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 1. 1. 1. 1. 0. 0. 1. 0.
+ 1. 0. 0. 0. 0. 0.]
+Generation 1
+4018.4922981770833
+Generation 2
+4121.1700390625
+Generation 3
+4294.219614257812
+Generation 4
+4440.374098307291
+Generation 5
+4440.374098307291
+Generation 6
+4440.374098307291
+Generation 7
+4440.943414713542
+Generation 8
+4440.943414713542
+Generation 9
+4440.943414713542
+Generation 10
+4440.943414713542
+Generation 11
+4440.943414713542
+Generation 12
+4440.943414713542
+Generation 13
+4440.943414713542
+Generation 14
+4440.943414713542
+Generation 15
+4440.943414713542
+Generation 16
+4440.943414713542
+Generation 17
+4440.943414713542
+Generation 18
+4440.943414713542
+Generation 19
+4440.943414713542
+Generation 20
+4440.943414713542
+##########  End of the  26  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0.
+ 1. 1. 0. 0. 0. 0.]
+Generation 1
+3933.57890625
+Generation 2
+4287.325485026042
+Generation 3
+4331.531958007812
+Generation 4
+4366.012345377604
+Generation 5
+4328.453984375
+Generation 6
+4391.273268229167
+Generation 7
+4391.273268229167
+Generation 8
+4391.273268229167
+Generation 9
+4391.273268229167
+Generation 10
+4391.273268229167
+Generation 11
+4391.273268229167
+Generation 12
+4433.84169921875
+Generation 13
+4430.603136393229
+Generation 14
+4430.603136393229
+Generation 15
+4430.603136393229
+Generation 16
+4430.603136393229
+Generation 17
+4430.603136393229
+Generation 18
+4430.603136393229
+Generation 19
+4430.603136393229
+Generation 20
+4430.603136393229
+##########  End of the  27  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1. 0.
+ 1. 1. 0. 0. 0. 0.]
+Generation 1
+3984.107071940104
+Generation 2
+4189.1248046875
+Generation 3
+4207.198372395834
+Generation 4
+4340.689873046875
+Generation 5
+4229.269073893229
+Generation 6
+4347.731795247396
+Generation 7
+4398.587379557292
+Generation 8
+4399.092975260417
+Generation 9
+4390.669920247396
+Generation 10
+4390.669920247396
+Generation 11
+4390.669920247396
+Generation 12
+4390.669920247396
+Generation 13
+4390.669920247396
+Generation 14
+4390.669920247396
+Generation 15
+4390.669920247396
+Generation 16
+4407.544900716146
+Generation 17
+4390.669920247396
+Generation 18
+4390.669920247396
+Generation 19
+4390.669920247396
+Generation 20
+4476.935970052084
+##########  End of the  28  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 1. 0.
+ 1. 1. 0. 0. 0. 0.]
+Generation 1
+3925.594482421875
+Generation 2
+4088.595182291667
+Generation 3
+4085.723408203125
+Generation 4
+4292.265395507812
+Generation 5
+4316.249641927084
+Generation 6
+4372.7318359375
+Generation 7
+4316.249641927084
+Generation 8
+4391.855074869792
+Generation 9
+4366.0271793619795
+Generation 10
+4366.0271793619795
+Generation 11
+4366.0271793619795
+Generation 12
+4366.0271793619795
+Generation 13
+4366.0271793619795
+Generation 14
+4394.113268229166
+Generation 15
+4408.97103515625
+Generation 16
+4444.26216796875
+Generation 17
+4444.26216796875
+Generation 18
+4444.26216796875
+Generation 19
+4444.26216796875
+Generation 20
+4444.26216796875
+##########  End of the  29  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 1. 0.
+ 1. 1. 0. 0. 1. 0.]
+Generation 1
+3969.36455078125
+Generation 2
+4033.5240348307293
+Generation 3
+4401.355196940104
+Generation 4
+4392.2894319661455
+Generation 5
+4392.2894319661455
+Generation 6
+4439.386546223958
+Generation 7
+4439.386546223958
+Generation 8
+4439.386546223958
+Generation 9
+4439.386546223958
+Generation 10
+4439.386546223958
+Generation 11
+4439.386546223958
+Generation 12
+4439.386546223958
+Generation 13
+4439.386546223958
+Generation 14
+4439.386546223958
+Generation 15
+4439.386546223958
+Generation 16
+4439.386546223958
+Generation 17
+4439.386546223958
+Generation 18
+4439.386546223958
+Generation 19
+4439.386546223958
+Generation 20
+4439.386546223958
+/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/ipykernel_launcher.py:247: RuntimeWarning: invalid value encountered in double_scalars
+##########  End of the  30  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 0. 1. 1. 1. 1. 0. 1. 0. 1. 0. 0. 1. 0.
+ 1. 1. 0. 1. 0. 0.]

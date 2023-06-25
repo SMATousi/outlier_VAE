@@ -1,0 +1,170 @@
+
+Generation 1
+279.08105631345376
+Generation 2
+316.6966572135667
+Generation 3
+322.20474850927826
+Generation 4
+334.25060078121726
+Generation 5
+326.81771529243275
+Generation 6
+326.81771529243275
+Generation 7
+326.81771529243275
+Generation 8
+326.81771529243275
+Generation 9
+326.81771529243275
+Generation 10
+326.81771529243275
+Generation 11
+328.17516067012724
+Generation 12
+331.30081462958617
+Generation 13
+331.30081462958617
+Generation 14
+331.30081462958617
+Generation 15
+331.30081462958617
+Generation 16
+344.996756092209
+Generation 17
+340.19634984811927
+Generation 18
+340.19634984811927
+Generation 19
+340.19634984811927
+Generation 20
+340.19634984811927
+Generation 21
+340.19634984811927
+Generation 22
+340.19634984811927
+Generation 23
+340.19634984811927
+Generation 24
+340.19634984811927
+Generation 25
+340.19634984811927
+Generation 26
+340.19634984811927
+Generation 27
+340.19634984811927
+Generation 28
+340.19634984811927
+Generation 29
+340.19634984811927
+Generation 30
+340.19634984811927
+Generation 31
+340.19634984811927
+Generation 32
+340.19634984811927
+Generation 33
+340.19634984811927
+Generation 34
+340.19634984811927
+Generation 35
+340.19634984811927
+Generation 36
+340.19634984811927
+Generation 37
+340.19634984811927
+Generation 38
+340.19634984811927
+Generation 39
+340.19634984811927
+Generation 40
+340.19634984811927
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0.
+ 0. 0. 0. 0. 0. 0.]
+Generation 1
+426.69217914194786
+Generation 2
+491.67876688658106
+Generation 3
+579.3082229246154
+Generation 4
+576.9319761086317
+Generation 5
+576.9319761086317
+Generation 6
+578.3295933977279
+Generation 7
+578.3295933977279
+Generation 8
+578.3295933977279
+Generation 9
+578.3295933977279
+Generation 10
+585.3294727630118
+Generation 11
+581.6491268657148
+Generation 12
+591.1147054459396
+Generation 13
+591.1147054459396
+Generation 14
+591.1147054459396
+Generation 15
+591.1147054459396
+Generation 16
+591.1147054459396
+Generation 17
+614.4880116659043
+Generation 18
+612.4118678127494
+Generation 19
+612.4118678127494
+Generation 20
+612.4118678127494
+Generation 21
+612.4118678127494
+Generation 22
+612.4118678127494
+Generation 23
+612.4118678127494
+Generation 24
+612.4118678127494
+Generation 25
+612.4118678127494
+Generation 26
+612.4118678127494
+Generation 27
+612.4118678127494
+Generation 28
+612.4118678127494
+Generation 29
+612.4118678127494
+Generation 30
+612.4118678127494
+Generation 31
+612.4118678127494
+Generation 32
+612.4118678127494
+Generation 33
+612.4118678127494
+Generation 34
+612.4118678127494
+Generation 35
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/logging/__init__.py", line 1029, in emit
+    self.flush()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/logging/__init__.py", line 1009, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/threading.py", line 890, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/ipykernel/parentpoller.py", line 35, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'

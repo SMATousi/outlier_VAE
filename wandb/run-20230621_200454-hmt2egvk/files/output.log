@@ -1205,3 +1205,90 @@ Parameters of the best solution : [0. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 
  1. 1. 0. 0. 0. 0.]
 Generation 1
 2224.9254964192705
+Generation 2
+2316.194091796875
+Generation 3
+2473.33798828125
+Generation 4
+2526.4415039062496
+Generation 5
+2476.84248046875
+Generation 6
+2505.5291015625
+Generation 7
+2511.93779296875
+Generation 8
+2574.9556640624996
+Generation 9
+2574.9556640624996
+Generation 10
+2593.938639322917
+Generation 11
+2654.6714029947916
+Generation 12
+2650.5263671875
+Generation 13
+2650.5263671875
+Generation 14
+2650.5263671875
+Generation 15
+2650.5263671875
+Generation 16
+2650.5263671875
+Generation 17
+2650.5263671875
+Generation 18
+2650.5263671875
+Generation 19
+2650.5263671875
+Generation 20
+2650.5263671875
+##########  End of the  29  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1. 0.
+ 1. 1. 0. 0. 0. 0.]
+Generation 1
+2226.345703125
+Generation 2
+2340.620361328125
+Generation 3
+2386.4822591145835
+Generation 4
+2439.396826171875
+Generation 5
+2547.2713216145835
+Generation 6
+2503.0096028645835
+Generation 7
+2503.0096028645835
+
+Generation 8
+2663.6957845052084
+Generation 9
+2617.6841796875
+Generation 10
+2617.6841796875
+Generation 11
+2617.6841796875
+Generation 12
+2617.6841796875
+Generation 13
+2617.6841796875
+Generation 14
+2617.6841796875
+Generation 15
+2617.6841796875
+Generation 16
+2617.6841796875
+Generation 17
+2617.6841796875
+Generation 18
+2617.6841796875
+Generation 19
+2617.6841796875
+Generation 20
+2617.6841796875
+##########  End of the  30  epoch ##########
+Parameters of the best solution : [0. 0. 1. 0. 1. 1. 0. 1. 0. 1. 0. 0. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 1. 0.
+ 1. 1. 0. 0. 0. 0.]
+/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/ipykernel_launcher.py:243: RuntimeWarning: invalid value encountered in double_scalars
+wandb: Network error (ConnectTimeout), entering retry loop.

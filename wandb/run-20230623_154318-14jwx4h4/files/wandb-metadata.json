@@ -1,0 +1,164 @@
+{
+    "os": "Linux-5.15.0-56-generic-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-06-23T20:43:21.087831",
+    "startedAt": "2023-06-23T20:43:18.736032",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Generated_dataset.ipynb",
+    "root": "/home/macula/SMATousi/VAE_outlier/outlier_VAE",
+    "git": {
+        "remote": "git@github.com:SMATousi/outlier_VAE.git",
+        "commit": "052b805581b67cb0386ff5a2ac9a72583285d688"
+    },
+    "email": "mohamadali.tousi@gmail.com",
+    "host": "fovea",
+    "username": "SMATousi",
+    "executable": "/home/macula/SMATousi/.conda/envs/mac-deep/bin/python",
+    "cpu_count": 16,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3103.5182916666668,
+        "min": 800.0,
+        "max": 4766.666666666667
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 884.439,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 5200.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        },
+        {
+            "current": 3200.0,
+            "min": 800.0,
+            "max": 3900.0
+        }
+    ],
+    "disk": {
+        "total": 878.0427589416504,
+        "used": 63.28316879272461
+    },
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3090",
+            "memory_total": 25769803776
+        }
+    ],
+    "memory": {
+        "total": 31.046627044677734
+    }
+}

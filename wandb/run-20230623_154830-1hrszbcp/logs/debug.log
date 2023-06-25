@@ -1,0 +1,66 @@
+2023-06-23 15:48:32,583 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Configure stats pid to 443684
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/.config/wandb/settings
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/settings
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-23 15:48:32,585 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:_log_setup():507] Logging user logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/run-20230623_154830-1hrszbcp/logs/debug.log
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:_log_setup():508] Logging internal logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/run-20230623_154830-1hrszbcp/logs/debug-internal.log
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:init():547] calling init triggers
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {}
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:init():596] starting backend
+2023-06-23 15:48:32,586 INFO    MainThread:443684 [wandb_init.py:init():600] setting up manager
+2023-06-23 15:48:32,658 ERROR   MainThread:443684 [wandb_init.py:init():1180] error
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1152, in init
+    run = wi.init()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_manager.py", line 208, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2023-06-23 15:48:51,444 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-06-23 15:48:51,445 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Configure stats pid to 443684
+2023-06-23 15:48:51,445 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/.config/wandb/settings
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/settings
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_init.py:_log_setup():507] Logging user logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/run-20230623_154845-3w3vem94/logs/debug.log
+2023-06-23 15:48:51,446 INFO    MainThread:443684 [wandb_init.py:_log_setup():508] Logging internal logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/wandb/run-20230623_154845-3w3vem94/logs/debug-internal.log
+2023-06-23 15:48:51,447 INFO    MainThread:443684 [wandb_init.py:init():547] calling init triggers
+2023-06-23 15:48:51,447 INFO    MainThread:443684 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {}
+2023-06-23 15:48:51,447 INFO    MainThread:443684 [wandb_init.py:init():596] starting backend
+2023-06-23 15:48:51,447 INFO    MainThread:443684 [wandb_init.py:init():600] setting up manager
+2023-06-23 15:48:51,495 ERROR   MainThread:443684 [wandb_init.py:init():1180] error
+Traceback (most recent call last):
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 1152, in init
+    run = wi.init()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_init.py", line 601, in init
+    manager._inform_init(settings=self.settings, run_id=self.settings.run_id)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/wandb_manager.py", line 208, in _inform_init
+    svc_iface._svc_inform_init(settings=settings, run_id=run_id)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/service/service_sock.py", line 38, in _svc_inform_init
+    self._sock_client.send(inform_init=inform_init)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
