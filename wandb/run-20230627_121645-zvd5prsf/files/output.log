@@ -1,0 +1,11 @@
+Epoch 1/200
+223/223 [==============================] - 1s 5ms/step - loss: 0.8202 - reconstruction_loss: 1.0026 - kl_loss: 0.0115
+Epoch 2/200
+223/223 [==============================] - 1s 5ms/step - loss: 0.8023 - reconstruction_loss: 0.9999 - kl_loss: 6.7322e-04
+Epoch 3/200
+223/223 [==============================] - 1s 5ms/step - loss: 0.8025 - reconstruction_loss: 1.0001 - kl_loss: 5.9470e-04
+Epoch 4/200
+223/223 [==============================] - 1s 6ms/step - loss: 0.7938 - reconstruction_loss: 1.0004 - kl_loss: 6.2296e-04
+Epoch 5/200
+
+142/223 [==================>...........] - ETA: 0s - loss: 0.8084 - reconstruction_loss: 0.9959 - kl_loss: 5.3405e-04

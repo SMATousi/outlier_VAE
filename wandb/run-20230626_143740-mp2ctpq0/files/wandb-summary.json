@@ -1,0 +1,1 @@
+{"GA - 1/solution_fitness": 299.4618162193976, "_timestamp": 1687808628.8750775, "_runtime": 349.315069437027, "_step": 55, "Metrics/precision": 0.2, "Metrics/recall": 1.0, "Metrics/F1": 0.33333333333333337, "Metrics/MCC": 0.41522739926869984, "Metrics/num": 1, "GA - 2/solution_fitness": 585.1409237383198, "_wandb": {"runtime": 485}}

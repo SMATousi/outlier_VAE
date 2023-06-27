@@ -1,0 +1,136 @@
+{
+    "os": "Linux-5.19.0-43-generic-x86_64-with-debian-bookworm-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-06-26T17:37:41.132809",
+    "startedAt": "2023-06-26T17:37:38.556039",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Generated_dataset.ipynb",
+    "root": "/home/macula/SMATousi/VAE_outlier/outlier_VAE",
+    "git": {
+        "remote": "git@github.com:SMATousi/outlier_VAE.git",
+        "commit": "b254b2cc5753478f723adac99d4983d88fd6aeba"
+    },
+    "email": "mohamadali.tousi@gmail.com",
+    "host": "choroid",
+    "username": "SMATousi",
+    "executable": "/home/macula/SMATousi/.conda/envs/mac-deep/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2227.9793124999997,
+        "min": 1200.0,
+        "max": 4350.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1946.567,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1199.99,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.075,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1200.067,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.241,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 1200.006,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1199.995,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 2496.026,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1199.988,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 1201.099,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4500.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4300.0
+        },
+        {
+            "current": 3600.0,
+            "min": 1200.0,
+            "max": 4300.0
+        }
+    ],
+    "disk": {
+        "total": 378.9653778076172,
+        "used": 25.881046295166016
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 62.478294372558594
+    }
+}
