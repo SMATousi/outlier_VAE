@@ -1,0 +1,301 @@
+
+Generation 1
+15.37857
+Generation 2
+17.05004
+Generation 3
+17.135738
+Generation 4
+17.336441
+Generation 5
+17.441002
+Generation 6
+17.549112
+Generation 7
+17.859783
+Generation 8
+17.553627
+Generation 9
+17.725763
+Generation 10
+17.725763
+Generation 11
+18.162169
+Generation 12
+17.726664
+Generation 13
+17.844452
+Generation 14
+18.44196
+Generation 15
+18.370525
+Generation 16
+18.672995
+Generation 17
+18.672995
+Generation 18
+18.672995
+Generation 19
+18.672995
+Generation 20
+18.672995
+Generation 21
+18.672995
+Generation 22
+18.672995
+Generation 23
+18.672995
+Generation 24
+18.672995
+Generation 25
+18.672995
+Generation 26
+18.672995
+Generation 27
+18.672995
+Generation 28
+18.672995
+Generation 29
+18.672995
+Generation 30
+18.672995
+Generation 31
+18.672995
+Generation 32
+18.672995
+Generation 33
+18.672995
+Generation 34
+18.672995
+Generation 35
+18.672995
+Generation 36
+18.672995
+Generation 37
+18.672995
+Generation 38
+18.672995
+Generation 39
+18.672995
+Generation 40
+18.672995
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 0. 0.]
+Epoch 1/100
+157/157 [==============================] - 2s 6ms/step - loss: 0.5568 - reconstruction_loss: 0.4716 - kl_loss: 0.0142
+Epoch 2/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3786 - reconstruction_loss: 0.3896 - kl_loss: 8.1333e-04
+Epoch 3/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3798 - reconstruction_loss: 0.3891 - kl_loss: 3.8088e-04
+Epoch 4/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3839 - reconstruction_loss: 0.4153 - kl_loss: 2.4374e-04
+Epoch 5/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3759 - reconstruction_loss: 0.3893 - kl_loss: 1.7527e-04
+Epoch 6/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3749 - reconstruction_loss: 0.3891 - kl_loss: 1.1860e-04
+Epoch 7/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3132 - reconstruction_loss: 0.3889 - kl_loss: 1.0099e-04
+Epoch 8/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3699 - reconstruction_loss: 0.3889 - kl_loss: 7.7650e-05
+Epoch 9/100
+Epoch 10/100===========================] - 1s 6ms/step - loss: 0.3699 - reconstruction_loss: 0.3888 - kl_loss: 6.2367e-05
+Epoch 10/100===========================] - 1s 6ms/step - loss: 0.3699 - reconstruction_loss: 0.3888 - kl_loss: 6.2367e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3635 - reconstruction_loss: 0.3890 - kl_loss: 5.4171e-05
+Epoch 11/100
+ 68/157 [===========>..................] - ETA: 0s - loss: 0.3465 - reconstruction_loss: 0.4313 - kl_loss: 3.6852e-05e-05
+Epoch 12/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3829 - reconstruction_loss: 0.3888 - kl_loss: 4.1542e-05
+Epoch 13/100
+ 77/157 [=============>................] - ETA: 0s - loss: 0.2946 - reconstruction_loss: 0.3503 - kl_loss: 2.7869e-05e-05
+Epoch 14/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3732 - reconstruction_loss: 0.3890 - kl_loss: 3.3232e-05
+Epoch 15/100
+  1/157 [..............................] - ETA: 1s - loss: 0.0851 - reconstruction_loss: 0.0850 - kl_loss: 2.0597e-05e-05
+Epoch 16/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3217 - reconstruction_loss: 0.3889 - kl_loss: 2.4840e-05
+Epoch 17/100
+  9/157 [>.............................] - ETA: 0s - loss: 0.4639 - reconstruction_loss: 0.3920 - kl_loss: 2.3079e-05e-05
+Epoch 18/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4582 - reconstruction_loss: 0.3890 - kl_loss: 2.1624e-05
+Epoch 19/100
+ 17/157 [==>...........................] - ETA: 0s - loss: 0.1870 - reconstruction_loss: 0.1784 - kl_loss: 1.8338e-05e-05
+Epoch 20/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3881 - reconstruction_loss: 0.3887 - kl_loss: 2.2600e-05
+Epoch 21/100
+ 17/157 [==>...........................] - ETA: 0s - loss: 0.2949 - reconstruction_loss: 0.3811 - kl_loss: 1.3865e-05e-05
+Epoch 22/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3868 - reconstruction_loss: 0.3956 - kl_loss: 2.0750e-05
+Epoch 23/100
+ 25/157 [===>..........................] - ETA: 0s - loss: 0.2773 - reconstruction_loss: 0.3351 - kl_loss: 2.5404e-05e-05
+Epoch 24/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4145 - reconstruction_loss: 0.3886 - kl_loss: 2.7165e-05
+Epoch 25/100
+ 34/157 [=====>........................] - ETA: 0s - loss: 0.3450 - reconstruction_loss: 0.3334 - kl_loss: 2.0243e-05e-05
+Epoch 26/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3889 - reconstruction_loss: 0.3888 - kl_loss: 1.8870e-05
+Epoch 27/100
+ 33/157 [=====>........................] - ETA: 0s - loss: 0.3970 - reconstruction_loss: 0.4218 - kl_loss: 1.1550e-05e-05
+Epoch 28/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4381 - reconstruction_loss: 0.3889 - kl_loss: 1.3333e-05
+Epoch 29/100
+ 49/157 [========>.....................] - ETA: 0s - loss: 0.5036 - reconstruction_loss: 0.4534 - kl_loss: 1.1511e-05e-06
+Epoch 30/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4092 - reconstruction_loss: 0.3889 - kl_loss: 1.2795e-05
+Epoch 31/100
+ 50/157 [========>.....................] - ETA: 0s - loss: 0.2753 - reconstruction_loss: 0.3274 - kl_loss: 7.5296e-06e-06
+Epoch 32/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4074 - reconstruction_loss: 0.3887 - kl_loss: 1.5955e-05
+Epoch 33/100
+ 58/157 [==========>...................] - ETA: 0s - loss: 0.3555 - reconstruction_loss: 0.4106 - kl_loss: 6.4235e-06e-05
+Epoch 34/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3891 - reconstruction_loss: 0.3892 - kl_loss: 1.2519e-05
+Epoch 35/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3735 - reconstruction_loss: 0.3901 - kl_loss: 6.5548e-06
+Epoch 36/100
+139/157 [=========================>....] - ETA: 0s - loss: 0.3703 - reconstruction_loss: 0.3731 - kl_loss: 1.0214e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3125 - reconstruction_loss: 0.3888 - kl_loss: 8.0553e-06
+Epoch 38/100
+140/157 [=========================>....] - ETA: 0s - loss: 0.3719 - reconstruction_loss: 0.3950 - kl_loss: 6.1396e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3640 - reconstruction_loss: 0.3969 - kl_loss: 8.3505e-06
+Epoch 40/100
+146/157 [==========================>...] - ETA: 0s - loss: 0.4073 - reconstruction_loss: 0.4058 - kl_loss: 8.0109e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3871 - reconstruction_loss: 0.3887 - kl_loss: 2.3854e-05
+Epoch 42/100
+155/157 [============================>.] - ETA: 0s - loss: 0.3457 - reconstruction_loss: 0.3904 - kl_loss: 1.2361e-05
+  1/157 [..............................] - ETA: 1s - loss: 1.4577 - reconstruction_loss: 1.4577 - kl_loss: 1.2367e-05e-05
+Epoch 44/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4046 - reconstruction_loss: 0.3940 - kl_loss: 1.0928e-05
+Epoch 45/100
+  1/157 [..............................] - ETA: 1s - loss: 0.6554 - reconstruction_loss: 0.6554 - kl_loss: 2.0942e-05e-05
+Epoch 46/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3601 - reconstruction_loss: 0.3887 - kl_loss: 2.0857e-05
+Epoch 47/100
+  9/157 [>.............................] - ETA: 0s - loss: 0.3981 - reconstruction_loss: 0.4242 - kl_loss: 4.0495e-06e-06
+Epoch 48/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3678 - reconstruction_loss: 0.3887 - kl_loss: 5.7865e-06
+Epoch 49/100
+ 18/157 [==>...........................] - ETA: 0s - loss: 0.6710 - reconstruction_loss: 0.4764 - kl_loss: 1.8651e-05e-06
+Epoch 50/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4074 - reconstruction_loss: 0.3886 - kl_loss: 6.0682e-06
+Epoch 51/100
+ 17/157 [==>...........................] - ETA: 0s - loss: 0.2481 - reconstruction_loss: 0.2540 - kl_loss: 1.6910e-06e-06
+Epoch 52/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3672 - reconstruction_loss: 0.3889 - kl_loss: 3.4689e-06
+Epoch 53/100
+ 25/157 [===>..........................] - ETA: 0s - loss: 0.2444 - reconstruction_loss: 0.3684 - kl_loss: 3.4710e-06e-06
+Epoch 54/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3626 - reconstruction_loss: 0.3887 - kl_loss: 1.1094e-05
+Epoch 55/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3729 - reconstruction_loss: 0.3887 - kl_loss: 8.2202e-06
+Epoch 56/100
+116/157 [=====================>........] - ETA: 0s - loss: 0.3577 - reconstruction_loss: 0.3495 - kl_loss: 1.0925e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3397 - reconstruction_loss: 0.3885 - kl_loss: 6.3419e-06
+Epoch 58/100
+123/157 [======================>.......] - ETA: 0s - loss: 0.4468 - reconstruction_loss: 0.4192 - kl_loss: 1.4713e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3753 - reconstruction_loss: 0.3887 - kl_loss: 1.1220e-05
+Epoch 60/100
+131/157 [========================>.....] - ETA: 0s - loss: 0.3336 - reconstruction_loss: 0.3852 - kl_loss: 9.2866e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3798 - reconstruction_loss: 0.3886 - kl_loss: 3.4962e-06
+Epoch 62/100
+139/157 [=========================>....] - ETA: 0s - loss: 0.3583 - reconstruction_loss: 0.3705 - kl_loss: 5.8049e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3805 - reconstruction_loss: 0.3887 - kl_loss: 3.5125e-06
+Epoch 64/100
+146/157 [==========================>...] - ETA: 0s - loss: 0.3263 - reconstruction_loss: 0.3938 - kl_loss: 5.6373e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.4561 - reconstruction_loss: 0.3900 - kl_loss: 5.7014e-06
+Epoch 66/100
+145/157 [==========================>...] - ETA: 0s - loss: 0.4154 - reconstruction_loss: 0.4099 - kl_loss: 4.5146e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3992 - reconstruction_loss: 0.3888 - kl_loss: 3.4543e-06
+Epoch 68/100
+156/157 [============================>.] - ETA: 0s - loss: 0.3755 - reconstruction_loss: 0.3882 - kl_loss: 5.0063e-06
+  1/157 [..............................] - ETA: 1s - loss: 0.2012 - reconstruction_loss: 0.2012 - kl_loss: 1.3961e-06e-06
+Epoch 70/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4190 - reconstruction_loss: 0.3886 - kl_loss: 2.4715e-06
+Epoch 71/100
+  1/157 [..............................] - ETA: 1s - loss: 0.4076 - reconstruction_loss: 0.4076 - kl_loss: 2.5621e-06e-06
+Epoch 72/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3801 - reconstruction_loss: 0.3887 - kl_loss: 3.3659e-06
+Epoch 73/100
+ 10/157 [>.............................] - ETA: 0s - loss: 0.2743 - reconstruction_loss: 0.5156 - kl_loss: 3.6322e-06e-05
+Epoch 74/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3737 - reconstruction_loss: 0.3887 - kl_loss: 7.7251e-06
+Epoch 75/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3736 - reconstruction_loss: 0.3886 - kl_loss: 6.7243e-06
+Epoch 76/100
+ 89/157 [================>.............] - ETA: 0s - loss: 0.4668 - reconstruction_loss: 0.4000 - kl_loss: 1.6199e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3911 - reconstruction_loss: 0.3886 - kl_loss: 1.7348e-05
+Epoch 78/100
+ 58/157 [==========>...................] - ETA: 0s - loss: 0.3798 - reconstruction_loss: 0.3846 - kl_loss: 6.1879e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.4352 - reconstruction_loss: 0.3887 - kl_loss: 9.1710e-06
+Epoch 80/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4055 - reconstruction_loss: 0.3886 - kl_loss: 1.6464e-05
+Epoch 81/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.4352 - reconstruction_loss: 0.3887 - kl_loss: 9.1710e-06
+Epoch 82/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3362 - reconstruction_loss: 0.3886 - kl_loss: 9.0759e-06
+Epoch 83/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3680 - reconstruction_loss: 0.3947 - kl_loss: 7.6097e-06
+Epoch 84/100
+157/157 [==============================] - 1s 6ms/step - loss: 0.3839 - reconstruction_loss: 0.3887 - kl_loss: 2.8968e-06
+Epoch 85/100
+ 33/157 [=====>........................] - ETA: 0s - loss: 0.1742 - reconstruction_loss: 0.2127 - kl_loss: 5.9981e-07
+ 34/157 [=====>........................] - ETA: 0s - loss: 0.4474 - reconstruction_loss: 0.3668 - kl_loss: 8.8875e-06e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.4028 - reconstruction_loss: 0.3950 - kl_loss: 4.0258e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.4028 - reconstruction_loss: 0.3950 - kl_loss: 4.0258e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3804 - reconstruction_loss: 0.3886 - kl_loss: 4.1526e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3804 - reconstruction_loss: 0.3886 - kl_loss: 4.1526e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3737 - reconstruction_loss: 0.3948 - kl_loss: 3.5598e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3737 - reconstruction_loss: 0.3948 - kl_loss: 3.5598e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3275 - reconstruction_loss: 0.3955 - kl_loss: 3.1978e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3275 - reconstruction_loss: 0.3955 - kl_loss: 3.1978e-06
+157/157 [==============================] - 1s 6ms/step - loss: 0.3801 - reconstruction_loss: 0.3889 - kl_loss: 5.8029e-04
+157/157 [==============================] - 1s 6ms/step - loss: 0.3801 - reconstruction_loss: 0.3889 - kl_loss: 5.8029e-04
+157/157 [==============================] - 1s 6ms/step - loss: 0.3134 - reconstruction_loss: 0.3887 - kl_loss: 1.3705e-04
+157/157 [==============================] - 1s 6ms/step - loss: 0.3134 - reconstruction_loss: 0.3887 - kl_loss: 1.3705e-04
+157/157 [==============================] - 1s 6ms/step - loss: 0.3884 - reconstruction_loss: 0.3887 - kl_loss: 5.7512e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3884 - reconstruction_loss: 0.3887 - kl_loss: 5.7512e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3421 - reconstruction_loss: 0.3948 - kl_loss: 3.5950e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3421 - reconstruction_loss: 0.3948 - kl_loss: 3.5950e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3720 - reconstruction_loss: 0.3887 - kl_loss: 2.3742e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3720 - reconstruction_loss: 0.3887 - kl_loss: 2.3742e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3925 - reconstruction_loss: 0.3886 - kl_loss: 1.4039e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3925 - reconstruction_loss: 0.3886 - kl_loss: 1.4039e-05
+113/157 [====================>.........] - ETA: 0s - loss: 0.3123 - reconstruction_loss: 0.3198 - kl_loss: 1.1490e-05e-05
+157/157 [==============================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 31/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 33/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 35/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 37/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 39/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 41/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 44/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 46/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 46/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 49/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 51/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 53/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 55/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 57/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 59/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 61/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 63/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 65/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 67/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 69/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 71/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 73/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 75/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 77/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 79/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 81/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 83/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 85/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 87/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 89/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 91/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 93/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 95/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 97/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 99/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 99/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05
+Epoch 99/100===========================] - 1s 6ms/step - loss: 0.3245 - reconstruction_loss: 0.3898 - kl_loss: 1.3602e-05

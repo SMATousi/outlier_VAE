@@ -1,0 +1,85 @@
+
+Generation 1
+17.085009
+Generation 2
+19.350494
+Generation 3
+19.249483
+Generation 4
+19.24446
+Generation 5
+19.30465
+Generation 6
+19.664877
+Generation 7
+19.76774
+Generation 8
+19.82989
+Generation 9
+19.82989
+Generation 10
+19.82989
+Generation 11
+19.97928
+Generation 12
+20.00483
+Generation 13
+20.059074
+Generation 14
+20.205612
+Generation 15
+20.205612
+Generation 16
+20.205612
+Generation 17
+20.205612
+Generation 18
+20.205612
+Generation 19
+20.205612
+Generation 20
+20.205612
+Generation 21
+20.205612
+Generation 22
+20.205612
+Generation 23
+20.205612
+Generation 24
+20.205612
+Generation 25
+20.205612
+Generation 26
+20.205612
+Generation 27
+20.205612
+Generation 28
+20.205612
+Generation 29
+20.42573
+Generation 30
+20.439665
+Generation 31
+20.380795
+Generation 32
+20.380795
+Generation 33
+20.380795
+Generation 34
+20.380795
+Generation 35
+20.380795
+Generation 36
+20.380795
+Generation 37
+20.510656
+Generation 38
+20.710499
+Generation 39
+20.710499
+Generation 40
+20.710499
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 0. 0. 1. 0. 1. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 1.]
+wandb: Network error (ConnectionError), entering retry loop.
