@@ -1,0 +1,683 @@
+
+Generation 1
+371.05203
+Generation 2
+347.35938
+Generation 3
+364.54303
+Generation 4
+364.54303
+Generation 5
+399.8335
+Generation 6
+399.8335
+Generation 7
+399.8335
+Generation 8
+399.8335
+Generation 9
+399.8335
+Generation 10
+403.39517
+Generation 11
+403.39517
+Generation 12
+403.39517
+Generation 13
+403.39517
+Generation 14
+403.39517
+Generation 15
+407.14117
+Generation 16
+407.14117
+Generation 17
+407.14117
+Generation 18
+410.0227
+Generation 19
+407.14117
+Generation 20
+407.14117
+Generation 21
+407.14117
+Generation 22
+407.14117
+Generation 23
+407.14117
+Generation 24
+436.71817
+Generation 25
+436.71817
+Generation 26
+436.71817
+Generation 27
+436.71817
+Generation 28
+436.71817
+Generation 29
+436.71817
+Generation 30
+436.71817
+Generation 31
+436.71817
+Generation 32
+436.71817
+Generation 33
+436.71817
+Generation 34
+436.71817
+Generation 35
+436.71817
+Generation 36
+436.71817
+Generation 37
+436.71817
+Generation 38
+436.71817
+Generation 39
+436.71817
+Generation 40
+436.71817
+Generation 41
+436.71817
+Generation 42
+436.71817
+Generation 43
+436.71817
+Generation 44
+436.71817
+Generation 45
+436.71817
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+671.11847
+Generation 2
+694.51086
+Generation 3
+771.52856
+Generation 4
+756.83093
+Generation 5
+711.01776
+Generation 6
+745.6545
+Generation 7
+745.6545
+Generation 8
+745.6545
+Generation 9
+745.6545
+Generation 10
+745.6545
+Generation 11
+745.6545
+Generation 12
+749.789
+Generation 13
+790.05005
+Generation 14
+790.05005
+Generation 15
+790.05005
+Generation 16
+790.05005
+Generation 17
+858.37646
+Generation 18
+858.37646
+Generation 19
+858.37646
+Generation 20
+858.37646
+Generation 21
+858.37646
+Generation 22
+858.37646
+Generation 23
+858.37646
+Generation 24
+858.37646
+Generation 25
+858.37646
+Generation 26
+858.37646
+Generation 27
+858.37646
+Generation 28
+858.37646
+Generation 29
+858.37646
+Generation 30
+858.37646
+Generation 31
+858.37646
+Generation 32
+858.37646
+Generation 33
+858.37646
+Generation 34
+858.37646
+Generation 35
+858.37646
+Generation 36
+858.37646
+Generation 37
+858.37646
+Generation 38
+858.37646
+Generation 39
+858.37646
+Generation 40
+858.37646
+Generation 41
+858.37646
+Generation 42
+858.37646
+Generation 43
+858.37646
+Generation 44
+858.37646
+Generation 45
+858.37646
+Generation 46
+858.37646
+Generation 47
+858.37646
+Generation 48
+858.37646
+Generation 49
+858.37646
+Generation 50
+858.37646
+##########  End of the  2  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0.]
+Generation 1
+853.58856
+Generation 2
+982.77344
+Generation 3
+973.8589
+Generation 4
+1075.9796
+Generation 5
+1078.637
+Generation 6
+1075.9796
+Generation 7
+1162.1686
+Generation 8
+1124.1385
+Generation 9
+1083.8622
+Generation 10
+1110.5878
+Generation 11
+1175.6345
+Generation 12
+1141.6156
+Generation 13
+1141.6156
+Generation 14
+1141.6156
+Generation 15
+1141.6156
+Generation 16
+1189.8734
+Generation 17
+1252.2345
+Generation 18
+1189.8734
+Generation 19
+1189.8734
+Generation 20
+1189.8734
+Generation 21
+1189.8734
+Generation 22
+1218.7832
+Generation 23
+1218.7832
+Generation 24
+1218.7832
+Generation 25
+1218.7832
+Generation 26
+1218.7832
+Generation 27
+1218.7832
+Generation 28
+1218.7832
+Generation 29
+1218.7832
+Generation 30
+1218.7832
+Generation 31
+1218.7832
+Generation 32
+1218.7832
+Generation 33
+1237.543
+Generation 34
+1237.543
+Generation 35
+1237.543
+Generation 36
+1237.543
+Generation 37
+1237.543
+Generation 38
+1262.6807
+Generation 39
+1237.543
+Generation 40
+1237.543
+Generation 41
+1244.126
+Generation 42
+1237.543
+Generation 43
+1237.543
+Generation 44
+1237.543
+Generation 45
+1237.543
+Generation 46
+1237.543
+Generation 47
+1237.543
+Generation 48
+1253.6301
+Generation 49
+1237.543
+Generation 50
+1237.543
+Generation 51
+1237.543
+Generation 52
+1237.543
+Generation 53
+1237.543
+Generation 54
+1237.543
+Generation 55
+1237.543
+##########  End of the  3  epoch ##########
+Parameters of the best solution : [1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+1134.7499
+Generation 2
+1414.0161
+Generation 3
+1414.0161
+Generation 4
+1414.0161
+Generation 5
+1414.0161
+Generation 6
+1414.0161
+Generation 7
+1414.0161
+Generation 8
+1414.0161
+Generation 9
+1414.0161
+Generation 10
+1414.0161
+Generation 11
+1494.0892
+Generation 12
+1414.0161
+Generation 13
+1414.0161
+Generation 14
+1453.1855
+Generation 15
+1445.1759
+Generation 16
+1431.9913
+Generation 17
+1478.9087
+Generation 18
+1414.0161
+Generation 19
+1414.0161
+Generation 20
+1414.0161
+Generation 21
+1414.0161
+Generation 22
+1468.0355
+Generation 23
+1468.0355
+Generation 24
+1468.0355
+Generation 25
+1468.0355
+Generation 26
+1468.0355
+Generation 27
+1468.0355
+Generation 28
+1468.0355
+Generation 29
+1468.0355
+Generation 30
+1468.0355
+Generation 31
+1468.0355
+Generation 32
+1511.483
+Generation 33
+1511.483
+Generation 34
+1511.483
+Generation 35
+1511.483
+Generation 36
+1511.483
+Generation 37
+1511.483
+Generation 38
+1511.483
+Generation 39
+1584.7208
+Generation 40
+1584.7208
+Generation 41
+1584.7208
+Generation 42
+1584.7208
+Generation 43
+1584.7208
+Generation 44
+1584.7208
+Generation 45
+1584.7208
+Generation 46
+1584.7208
+Generation 47
+1584.7208
+Generation 48
+1584.7208
+Generation 49
+1584.7208
+Generation 50
+1584.7208
+Generation 51
+1584.7208
+Generation 52
+1584.7208
+Generation 53
+1584.7208
+Generation 54
+1584.7208
+Generation 55
+1584.7208
+Generation 56
+1584.7208
+Generation 57
+1584.7208
+Generation 58
+1584.7208
+Generation 59
+1584.7208
+Generation 60
+1584.7208
+##########  End of the  4  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+1480.9683
+Generation 2
+1611.0317
+Generation 3
+1642.8055
+Generation 4
+1726.5854
+Generation 5
+1672.5536
+Generation 6
+1672.5536
+Generation 7
+1687.111
+Generation 8
+1777.6804
+Generation 9
+1777.6804
+Generation 10
+1777.6804
+Generation 11
+1777.6804
+Generation 12
+1777.6804
+Generation 13
+1777.6804
+Generation 14
+1807.6091
+Generation 15
+1807.6091
+Generation 16
+1807.6091
+Generation 17
+1807.6091
+Generation 18
+1807.6091
+Generation 19
+1807.6091
+Generation 20
+1807.6091
+Generation 21
+1807.6091
+Generation 22
+1807.6091
+Generation 23
+1807.6091
+Generation 24
+1807.6091
+Generation 25
+2008.4734
+Generation 26
+1807.6091
+Generation 27
+1807.6091
+Generation 28
+1807.6091
+Generation 29
+1807.6091
+Generation 30
+1807.6091
+Generation 31
+1818.1022
+Generation 32
+1812.2804
+Generation 33
+1812.2804
+Generation 34
+1812.2804
+Generation 35
+1812.2804
+Generation 36
+1812.2804
+Generation 37
+1812.2804
+Generation 38
+1812.2804
+Generation 39
+1812.2804
+Generation 40
+1812.2804
+Generation 41
+1812.2804
+Generation 42
+1812.2804
+Generation 43
+1821.0367
+Generation 44
+1821.0367
+Generation 45
+1821.0367
+Generation 46
+1821.0367
+Generation 47
+1821.0367
+Generation 48
+1821.0367
+Generation 49
+1821.0367
+Generation 50
+1839.0323
+Generation 51
+1839.0323
+Generation 52
+1839.0323
+Generation 53
+1839.0323
+Generation 54
+1839.0323
+Generation 55
+1839.0323
+Generation 56
+1839.0323
+Generation 57
+1839.0323
+Generation 58
+1839.0323
+Generation 59
+1839.0323
+Generation 60
+1839.0323
+Generation 61
+1839.0323
+Generation 62
+1839.0323
+Generation 63
+1839.0323
+Generation 64
+1839.0323
+Generation 65
+1839.0323
+##########  End of the  5  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 1. 0. 1. 0.]
+Generation 1
+1661.1705
+Generation 2
+1824.2568
+Generation 3
+1871.7003
+Generation 4
+1985.4742
+Generation 5
+2043.043
+Generation 6
+2043.043
+Generation 7
+2043.043
+Generation 8
+2043.043
+Generation 9
+2043.043
+Generation 10
+2043.043
+Generation 11
+2043.043
+Generation 12
+2043.043
+Generation 13
+2043.043
+Generation 14
+2102.0757
+Generation 15
+2102.0757
+Generation 16
+2102.0757
+Generation 17
+2102.0757
+Generation 18
+2102.0757
+Generation 19
+2102.0757
+Generation 20
+2102.0757
+Generation 21
+2102.0757
+Generation 22
+2102.0757
+Generation 23
+2102.0757
+Generation 24
+2102.0757
+Generation 25
+2102.0757
+Generation 26
+2102.0757
+Generation 27
+2102.0757
+Generation 28
+2102.0757
+Generation 29
+2102.0757
+Generation 30
+2102.0757
+Generation 31
+2102.0757
+Generation 32
+2102.0757
+Generation 33
+2102.0757
+Generation 34
+2102.0757
+Generation 35
+2102.0757
+Generation 36
+2102.0757
+Generation 37
+2102.0757
+Generation 38
+2102.0757
+Generation 39
+2102.0757
+Generation 40
+2102.0757
+Generation 41
+2102.0757
+Generation 42
+2102.0757
+Generation 43
+2102.0757
+Generation 44
+2102.0757
+Generation 45
+2102.0757
+Generation 46
+2102.0757
+Generation 47
+2102.0757
+Generation 48
+2102.0757
+Generation 49
+2102.0757
+Generation 50
+2102.0757
+Generation 51
+2102.0757
+Generation 52
+2102.0757
+Generation 53
+2102.0757
+Generation 54
+2102.0757
+Generation 55
+2102.0757
+Generation 56
+2102.0757
+Generation 57
+2102.0757
+Generation 58
+2102.0757
+Generation 59

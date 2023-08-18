@@ -1,0 +1,361 @@
+2023-08-15 13:37:37,888 INFO    StreamThr :7391 [internal.py:wandb_internal():89] W&B internal server running at pid: 7391, started at: 2023-08-15 13:37:37.663700
+2023-08-15 13:37:37,893 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status
+2023-08-15 13:37:37,894 INFO    WriterThread:7391 [datastore.py:open_for_write():85] open: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/run-exlxrg7c.wandb
+2023-08-15 13:37:38,223 DEBUG   SenderThread:7391 [sender.py:send():369] send: header
+2023-08-15 13:37:38,223 DEBUG   SenderThread:7391 [sender.py:send():369] send: run
+2023-08-15 13:37:38,799 INFO    SenderThread:7391 [dir_watcher.py:__init__():211] watching files in: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files
+2023-08-15 13:37:38,799 INFO    SenderThread:7391 [sender.py:_start_run_threads():1103] run started: exlxrg7c with start time 1692124657.663413
+2023-08-15 13:37:38,799 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:37:38,804 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: check_version
+2023-08-15 13:37:38,961 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:37:38,963 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: check_version
+2023-08-15 13:37:39,077 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: run_start
+2023-08-15 13:37:39,080 DEBUG   HandlerThread:7391 [system_info.py:__init__():31] System info init
+2023-08-15 13:37:39,080 DEBUG   HandlerThread:7391 [system_info.py:__init__():46] System info init done
+2023-08-15 13:37:39,080 INFO    HandlerThread:7391 [system_monitor.py:start():181] Starting system monitor
+2023-08-15 13:37:39,080 INFO    SystemMonitor:7391 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-15 13:37:39,081 INFO    HandlerThread:7391 [system_monitor.py:probe():201] Collecting system info
+2023-08-15 13:37:39,081 INFO    SystemMonitor:7391 [interfaces.py:start():190] Started cpu monitoring
+2023-08-15 13:37:39,082 INFO    SystemMonitor:7391 [interfaces.py:start():190] Started disk monitoring
+2023-08-15 13:37:39,083 INFO    SystemMonitor:7391 [interfaces.py:start():190] Started gpu monitoring
+2023-08-15 13:37:39,083 INFO    SystemMonitor:7391 [interfaces.py:start():190] Started memory monitoring
+2023-08-15 13:37:39,084 INFO    SystemMonitor:7391 [interfaces.py:start():190] Started network monitoring
+2023-08-15 13:37:39,113 DEBUG   HandlerThread:7391 [system_info.py:probe():195] Probing system
+2023-08-15 13:37:39,241 DEBUG   HandlerThread:7391 [system_info.py:_probe_git():180] Probing git
+2023-08-15 13:37:39,467 DEBUG   HandlerThread:7391 [system_info.py:_probe_git():188] Probing git done
+2023-08-15 13:37:39,467 DEBUG   HandlerThread:7391 [system_info.py:probe():240] Probing system done
+2023-08-15 13:37:39,467 DEBUG   HandlerThread:7391 [system_monitor.py:probe():210] {'os': 'Linux-4.15.0-213-generic-x86_64-with-debian-buster-sid', 'python': '3.7.13', 'heartbeatAt': '2023-08-15T18:37:39.113788', 'startedAt': '2023-08-15T18:37:36.501075', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'gen_data.py', 'codePath': 'scripts/gen_data.py', 'git': {'remote': 'git@github.com:SMATousi/outlier_VAE.git', 'commit': '23c1be56b81402bf8dd607b3d39c90b4a72e5503'}, 'email': 'mohamadali.tousi@gmail.com', 'root': '/home/macula/SMATousi/VAE_outlier/outlier_VAE', 'host': 'cornea', 'username': 'SMATousi', 'executable': '/home/macula/SMATousi/.conda/envs/mac-deep/bin/python3', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2853.416916666667, 'min': 800.0, 'max': 4600.0}, 'cpu_freq_per_core': [{'current': 2702.204, 'min': 800.0, 'max': 4600.0}, {'current': 2718.158, 'min': 800.0, 'max': 4600.0}, {'current': 3006.078, 'min': 800.0, 'max': 4600.0}, {'current': 2885.335, 'min': 800.0, 'max': 4600.0}, {'current': 2886.678, 'min': 800.0, 'max': 4600.0}, {'current': 2911.096, 'min': 800.0, 'max': 4600.0}, {'current': 2848.271, 'min': 800.0, 'max': 4600.0}, {'current': 2696.123, 'min': 800.0, 'max': 4600.0}, {'current': 2803.312, 'min': 800.0, 'max': 4600.0}, {'current': 3173.039, 'min': 800.0, 'max': 4600.0}, {'current': 2825.792, 'min': 800.0, 'max': 4600.0}, {'current': 2784.917, 'min': 800.0, 'max': 4600.0}], 'disk': {'total': 23.990325927734375, 'used': 20.835086822509766}, 'gpu': 'NVIDIA GeForce RTX 2060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2060', 'memory_total': 6221463552}], 'memory': {'total': 31.353317260742188}}
+2023-08-15 13:37:39,467 INFO    HandlerThread:7391 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-15 13:37:39,467 INFO    HandlerThread:7391 [system_monitor.py:probe():214] Publishing system info
+2023-08-15 13:37:39,467 DEBUG   HandlerThread:7391 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-08-15 13:37:39,832 DEBUG   HandlerThread:7391 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-15 13:37:39,838 DEBUG   HandlerThread:7391 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-08-15 13:37:39,839 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/requirements.txt
+2023-08-15 13:37:39,840 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:37:40,834 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/conda-environment.yaml
+2023-08-15 13:37:45,883 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/conda-environment.yaml
+2023-08-15 13:37:45,941 DEBUG   HandlerThread:7391 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-15 13:37:46,008 INFO    HandlerThread:7391 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-15 13:37:46,029 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:37:46,029 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-15 13:37:46,030 DEBUG   SenderThread:7391 [sender.py:send():369] send: files
+2023-08-15 13:37:46,030 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2023-08-15 13:37:46,038 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:37:46,039 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:37:46,163 DEBUG   SenderThread:7391 [sender.py:send():369] send: telemetry
+2023-08-15 13:37:46,411 INFO    wandb-upload_0:7391 [upload_job.py:push():133] Uploaded file /tmp/tmph96z8p40wandb/ckqbot89-wandb-metadata.json
+2023-08-15 13:37:46,884 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-metadata.json
+2023-08-15 13:37:48,163 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:37:52,957 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_created():272] file/dir created: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:37:53,957 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:37:55,011 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:37:56,251 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:37:56,252 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:37:56,253 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:37:56,319 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:37:57,070 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:37:57,070 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:37:59,320 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:01,037 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:38:01,038 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:38:01,121 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:03,082 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:03,083 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:03,084 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:03,179 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:04,123 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:05,180 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:05,189 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:09,909 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:10,388 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:10,393 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:10,448 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:10,823 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:10,882 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:11,449 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:11,449 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/config.yaml
+2023-08-15 13:38:13,499 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:15,543 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:16,038 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:38:16,038 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:38:16,093 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:16,718 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:16,719 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:16,719 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:16,802 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:17,545 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:19,586 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:21,094 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:21,637 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:23,568 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:23,570 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:23,570 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:23,689 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:24,639 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:25,833 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:26,690 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:29,883 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:30,287 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:30,288 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:30,288 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:30,434 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:30,884 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:31,038 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:38:31,038 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:38:31,918 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:32,197 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:35,961 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:36,927 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:36,928 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:36,928 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:37,462 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:37,463 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:37,962 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:39,084 DEBUG   SystemMonitor:7391 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-15 13:38:39,086 DEBUG   SenderThread:7391 [sender.py:send():369] send: stats
+2023-08-15 13:38:39,964 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:42,005 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:43,213 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:43,490 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:43,491 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:43,491 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:43,573 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:44,007 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:46,037 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:38:46,037 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:38:46,082 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:48,771 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:49,133 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:50,089 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:50,090 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:50,090 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:50,151 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:50,151 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:51,201 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:54,489 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:38:55,244 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:38:56,878 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:38:56,879 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:38:56,880 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:38:57,095 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:38:57,246 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:38:59,288 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:00,096 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:01,038 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:39:01,038 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:39:01,347 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:03,686 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:39:03,687 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:39:03,687 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:39:03,756 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:04,350 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:39:05,391 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:05,757 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:09,086 DEBUG   SenderThread:7391 [sender.py:send():369] send: stats
+2023-08-15 13:39:09,467 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:10,437 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:39:10,439 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:39:10,439 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:39:10,542 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:11,468 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:39:11,543 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:13,535 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:15,577 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:16,038 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-15 13:39:16,038 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: stop_status
+2023-08-15 13:39:17,180 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:17,249 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:39:17,249 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:39:17,250 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:39:17,320 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:17,579 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:39:19,623 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:22,748 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:23,692 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:24,183 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: partial_history
+2023-08-15 13:39:24,184 DEBUG   SenderThread:7391 [sender.py:send():369] send: history
+2023-08-15 13:39:24,184 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: summary_record
+2023-08-15 13:39:24,267 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:24,269 DEBUG   SenderThread:7391 [sender.py:send():369] send: exit
+2023-08-15 13:39:24,269 INFO    SenderThread:7391 [sender.py:send_exit():574] handling exit code: 1
+2023-08-15 13:39:24,269 INFO    SenderThread:7391 [sender.py:send_exit():576] handling runtime: 105
+2023-08-15 13:39:24,326 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:24,327 INFO    SenderThread:7391 [sender.py:send_exit():582] send defer
+2023-08-15 13:39:24,327 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,327 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-15 13:39:24,328 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,328 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 0
+2023-08-15 13:39:24,328 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 1
+2023-08-15 13:39:24,328 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,328 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-15 13:39:24,328 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,328 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 1
+2023-08-15 13:39:24,328 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 2
+2023-08-15 13:39:24,328 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,328 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-15 13:39:24,328 INFO    HandlerThread:7391 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-15 13:39:24,329 DEBUG   SystemMonitor:7391 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-15 13:39:24,329 DEBUG   SystemMonitor:7391 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-15 13:39:24,329 INFO    HandlerThread:7391 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-15 13:39:24,330 INFO    HandlerThread:7391 [interfaces.py:finish():202] Joined disk monitor
+2023-08-15 13:39:24,408 INFO    HandlerThread:7391 [interfaces.py:finish():202] Joined gpu monitor
+2023-08-15 13:39:24,408 INFO    HandlerThread:7391 [interfaces.py:finish():202] Joined memory monitor
+2023-08-15 13:39:24,409 INFO    HandlerThread:7391 [interfaces.py:finish():202] Joined network monitor
+2023-08-15 13:39:24,409 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,409 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 2
+2023-08-15 13:39:24,409 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 3
+2023-08-15 13:39:24,409 DEBUG   SenderThread:7391 [sender.py:send():369] send: stats
+2023-08-15 13:39:24,410 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,410 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-15 13:39:24,410 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,410 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 3
+2023-08-15 13:39:24,410 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 4
+2023-08-15 13:39:24,410 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,410 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-15 13:39:24,411 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,411 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 4
+2023-08-15 13:39:24,411 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 5
+2023-08-15 13:39:24,411 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,411 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-15 13:39:24,411 DEBUG   SenderThread:7391 [sender.py:send():369] send: summary
+2023-08-15 13:39:24,467 INFO    SenderThread:7391 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2023-08-15 13:39:24,468 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,468 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 5
+2023-08-15 13:39:24,468 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 6
+2023-08-15 13:39:24,468 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,468 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-15 13:39:24,469 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,469 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 6
+2023-08-15 13:39:24,469 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 7
+2023-08-15 13:39:24,469 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:24,469 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:24,469 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-15 13:39:24,469 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:24,470 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 7
+2023-08-15 13:39:24,694 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:39:25,118 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 8
+2023-08-15 13:39:25,118 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:25,118 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-15 13:39:25,119 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:25,119 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 8
+2023-08-15 13:39:25,119 INFO    SenderThread:7391 [job_builder.py:build():232] Attempting to build job artifact
+2023-08-15 13:39:25,120 INFO    SenderThread:7391 [job_builder.py:build():256] is repo sourced job
+2023-08-15 13:39:25,133 INFO    SenderThread:7391 [job_builder.py:build():297] adding wandb-job metadata file
+2023-08-15 13:39:25,436 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 9
+2023-08-15 13:39:25,437 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:25,437 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-15 13:39:25,439 DEBUG   SenderThread:7391 [sender.py:send():369] send: artifact
+2023-08-15 13:39:25,709 INFO    Thread-12 :7391 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:25,877 INFO    SenderThread:7391 [sender.py:send_artifact():1450] sent artifact job-git_github.com_SMATousi_outlier_VAE.git_scripts_gen_data.py - {'id': 'QXJ0aWZhY3Q6NTQyNTU0ODk5', 'digest': '49f0695e300cff353d1cce8bd9622321', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-git_github.com_SMATousi_outlier_VAE.git_scripts_gen_data.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-git_github.com_SMATousi_outlier_VAE.git_scripts_gen_data.py', 'alias': 'v1'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjkwNjc4Njk5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTQyNTU0ODk5', 'versionIndex': 1}}, 'version': 'v1'}
+2023-08-15 13:39:25,878 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:25,878 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 9
+2023-08-15 13:39:25,878 INFO    SenderThread:7391 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-08-15 13:39:26,712 INFO    SenderThread:7391 [dir_watcher.py:finish():389] scan: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files
+2023-08-15 13:39:26,713 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/config.yaml config.yaml
+2023-08-15 13:39:26,714 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/conda-environment.yaml conda-environment.yaml
+2023-08-15 13:39:26,723 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/requirements.txt requirements.txt
+2023-08-15 13:39:26,727 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log output.log
+2023-08-15 13:39:26,727 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-metadata.json wandb-metadata.json
+2023-08-15 13:39:26,735 INFO    SenderThread:7391 [dir_watcher.py:finish():403] scan save: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json wandb-summary.json
+2023-08-15 13:39:26,735 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 10
+2023-08-15 13:39:26,736 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:26,736 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-15 13:39:26,740 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:26,740 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 10
+2023-08-15 13:39:26,740 INFO    SenderThread:7391 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-15 13:39:27,048 INFO    wandb-upload_0:7391 [upload_job.py:push():133] Uploaded file /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/output.log
+2023-08-15 13:39:27,170 INFO    wandb-upload_5:7391 [upload_job.py:push():133] Uploaded file /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/wandb-summary.json
+2023-08-15 13:39:27,186 INFO    wandb-upload_1:7391 [upload_job.py:push():133] Uploaded file /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/config.yaml
+2023-08-15 13:39:27,195 INFO    wandb-upload_3:7391 [upload_job.py:push():133] Uploaded file /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/requirements.txt
+2023-08-15 13:39:27,199 INFO    wandb-upload_2:7391 [upload_job.py:push():133] Uploaded file /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/files/conda-environment.yaml
+2023-08-15 13:39:27,400 INFO    Thread-11 :7391 [sender.py:transition_state():602] send defer: 11
+2023-08-15 13:39:27,400 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:27,401 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-15 13:39:27,402 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:27,402 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 11
+2023-08-15 13:39:27,402 INFO    SenderThread:7391 [file_pusher.py:join():164] waiting for file pusher
+2023-08-15 13:39:27,403 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 12
+2023-08-15 13:39:27,404 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:27,404 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-15 13:39:27,405 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:27,405 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 12
+2023-08-15 13:39:27,481 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 13
+2023-08-15 13:39:27,482 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:27,482 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-15 13:39:27,483 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:27,483 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 13
+2023-08-15 13:39:27,484 INFO    SenderThread:7391 [sender.py:transition_state():602] send defer: 14
+2023-08-15 13:39:27,486 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: defer
+2023-08-15 13:39:27,486 DEBUG   SenderThread:7391 [sender.py:send():369] send: final
+2023-08-15 13:39:27,486 INFO    HandlerThread:7391 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-15 13:39:27,487 DEBUG   SenderThread:7391 [sender.py:send():369] send: footer
+2023-08-15 13:39:27,488 DEBUG   SenderThread:7391 [sender.py:send_request():396] send_request: defer
+2023-08-15 13:39:27,488 INFO    SenderThread:7391 [sender.py:send_request_defer():598] handle sender defer: 14
+2023-08-15 13:39:33,490 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:38,491 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:43,493 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:48,494 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:53,495 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:39:58,497 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:03,498 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:08,499 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:13,500 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:18,501 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:23,502 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:28,503 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:33,504 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:38,506 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:43,507 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:48,508 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:53,510 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:40:58,511 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:03,512 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:08,513 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:13,515 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:18,516 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:23,517 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:28,519 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:33,520 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:38,521 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:43,523 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:48,524 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:53,525 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:41:58,526 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:03,527 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:08,529 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:13,530 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:18,531 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:23,533 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:28,534 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:33,535 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:38,537 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:43,538 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:48,539 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:53,541 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:42:58,542 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:03,543 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:08,544 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:13,545 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:18,547 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:23,548 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:28,549 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:33,551 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:38,552 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:43,553 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:48,555 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:53,556 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:43:58,557 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:03,559 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:08,560 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:13,561 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:18,563 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:23,564 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:28,565 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:33,567 DEBUG   HandlerThread:7391 [handler.py:handle_request():144] handle_request: status_report
+2023-08-15 13:44:35,341 WARNING StreamThr :7391 [internal.py:is_dead():415] Internal process exiting, parent pid 7302 disappeared
+2023-08-15 13:44:35,342 ERROR   StreamThr :7391 [internal.py:wandb_internal():152] Internal process shutdown.
+2023-08-15 13:44:35,567 INFO    SenderThread:7391 [sender.py:finish():1526] shutting down sender
+2023-08-15 13:44:35,567 INFO    SenderThread:7391 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-15 13:44:35,568 INFO    SenderThread:7391 [file_pusher.py:join():164] waiting for file pusher
+2023-08-15 13:44:35,568 INFO    HandlerThread:7391 [handler.py:finish():854] shutting down handler
+2023-08-15 13:44:35,569 INFO    WriterThread:7391 [datastore.py:close():298] close: /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_133736-exlxrg7c/run-exlxrg7c.wandb

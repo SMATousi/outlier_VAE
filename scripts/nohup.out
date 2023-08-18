@@ -1,0 +1,823 @@
+2023-08-15 13:46:51.400669: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-15 13:46:54.021544: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-15 13:46:54.021884: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-15 13:46:54.021895: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-08-15 13:47:02.377647: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.437165: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.437370: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.437745: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-15 13:47:02.438555: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.438720: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.438873: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.971231: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.971486: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.971630: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 13:47:02.971753: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3518 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2060, pci bus id: 0000:01:00.0, compute capability: 7.5
+wandb: Currently logged in as: stmmc (tousi-team). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.8 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_134712-kxfc0f6q
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run sweet-meadow-6
+wandb: ⭐️ View project at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_out%3D10
+wandb: 🚀 View run at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_out%3D10/runs/kxfc0f6q
+Generation 1
+348.34146
+Generation 2
+345.25232
+Generation 3
+348.46613
+Generation 4
+360.77448
+Generation 5
+370.96365
+Generation 6
+370.96365
+Generation 7
+370.96365
+Generation 8
+370.96365
+Generation 9
+370.96365
+Generation 10
+374.44473
+Generation 11
+379.81693
+Generation 12
+379.81693
+Generation 13
+379.81693
+Generation 14
+379.81693
+Generation 15
+379.81693
+Generation 16
+379.81693
+Generation 17
+387.56873
+Generation 18
+379.81693
+Generation 19
+379.81693
+Generation 20
+379.81693
+Generation 21
+379.81693
+Generation 22
+379.81693
+Generation 23
+393.38266
+Generation 24
+379.81693
+Generation 25
+379.81693
+Generation 26
+385.12607
+Generation 27
+379.81693
+Generation 28
+379.81693
+Generation 29
+379.81693
+Generation 30
+379.81693
+Generation 31
+379.81693
+Generation 32
+379.81693
+Generation 33
+379.81693
+Generation 34
+379.81693
+Generation 35
+383.1535
+Generation 36
+379.81693
+Generation 37
+379.81693
+Generation 38
+379.81693
+Generation 39
+379.81693
+Generation 40
+381.60706
+Generation 41
+379.81693
+Generation 42
+379.81693
+Generation 43
+379.81693
+Generation 44
+379.81693
+Generation 45
+379.81693
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0.
+ 0. 0. 0. 0. 0. 0.]
+wandb: Waiting for W&B process to finish... (failed 1). Press Control-C to abort syncing.
+wandb: 
+wandb: Run history:
+wandb: GA - 1/solution_fitness ▁▁▁▃▅▅▅▅▅▆▆▆▆▆▆▇▆▆▆▆█▆▆▇▆▆▆▆▆▆▆▇▆▆▆▆▆▆▆▆
+wandb: 
+wandb: Run summary:
+wandb: GA - 1/solution_fitness 379.81693
+wandb: 
+wandb: 🚀 View run sweet-meadow-6 at: https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_out%3D10/runs/kxfc0f6q
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20230815_134712-kxfc0f6q/logs
+Traceback (most recent call last):
+  File "gen_data.py", line 391, in <module>
+    recall = TP / (TP + FN)
+ZeroDivisionError: division by zero
+2023-08-15 14:31:27.915479: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-15 14:31:30.372668: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-15 14:31:30.374996: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-15 14:31:30.375012: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-08-15 14:31:39.000631: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.067893: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.068102: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.068490: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-15 14:31:39.069214: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.069407: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.069572: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.609464: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.609779: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.609924: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-15 14:31:39.610045: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3518 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2060, pci bus id: 0000:01:00.0, compute capability: 7.5
+wandb: Currently logged in as: stmmc (tousi-team). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.8 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_143149-7lwjk48a
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run happy-sky-7
+wandb: ⭐️ View project at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_out%3D10
+wandb: 🚀 View run at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_out%3D10/runs/7lwjk48a
+2023-08-16 10:18:31.975556: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-16 10:18:34.753158: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer.so.7'; dlerror: libnvinfer.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-16 10:18:34.774743: W tensorflow/compiler/xla/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libnvinfer_plugin.so.7'; dlerror: libnvinfer_plugin.so.7: cannot open shared object file: No such file or directory; LD_LIBRARY_PATH: :/home/macula/SMATousi/.conda/envs/mac-deep/lib/:/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/nvidia/cudnn/lib
+2023-08-16 10:18:34.774776: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+2023-08-16 10:18:43.133252: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.353168: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.353960: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.355473: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-16 10:18:43.358056: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.358593: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.359072: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.897389: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.897575: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.897713: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2023-08-16 10:18:43.897830: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1613] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 3483 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 2060, pci bus id: 0000:01:00.0, compute capability: 7.5
+wandb: Currently logged in as: stmmc (tousi-team). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.15.8 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.4
+wandb: Run data is saved locally in /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230816_101856-qrg7osfl
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run laced-snowflake-1
+wandb: ⭐️ View project at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_script_1
+wandb: 🚀 View run at https://wandb.ai/tousi-team/VAE_Outlier_GA_Without_Penalty_KL_fixed_script_1/runs/qrg7osfl
+wandb: Network error (ConnectionError), entering retry loop.
+Generation 1
+371.05203
+Generation 2
+347.35938
+Generation 3
+364.54303
+Generation 4
+364.54303
+Generation 5
+399.8335
+Generation 6
+399.8335
+Generation 7
+399.8335
+Generation 8
+399.8335
+Generation 9
+399.8335
+Generation 10
+403.39517
+Generation 11
+403.39517
+Generation 12
+403.39517
+Generation 13
+403.39517
+Generation 14
+403.39517
+Generation 15
+407.14117
+Generation 16
+407.14117
+Generation 17
+407.14117
+Generation 18
+410.0227
+Generation 19
+407.14117
+Generation 20
+407.14117
+Generation 21
+407.14117
+Generation 22
+407.14117
+Generation 23
+407.14117
+Generation 24
+436.71817
+Generation 25
+436.71817
+Generation 26
+436.71817
+Generation 27
+436.71817
+Generation 28
+436.71817
+Generation 29
+436.71817
+Generation 30
+436.71817
+Generation 31
+436.71817
+Generation 32
+436.71817
+Generation 33
+436.71817
+Generation 34
+436.71817
+Generation 35
+436.71817
+Generation 36
+436.71817
+Generation 37
+436.71817
+Generation 38
+436.71817
+Generation 39
+436.71817
+Generation 40
+436.71817
+Generation 41
+436.71817
+Generation 42
+436.71817
+Generation 43
+436.71817
+Generation 44
+436.71817
+Generation 45
+436.71817
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+671.11847
+Generation 2
+694.51086
+Generation 3
+771.52856
+Generation 4
+756.83093
+Generation 5
+711.01776
+Generation 6
+745.6545
+Generation 7
+745.6545
+Generation 8
+745.6545
+Generation 9
+745.6545
+Generation 10
+745.6545
+Generation 11
+745.6545
+Generation 12
+749.789
+Generation 13
+790.05005
+Generation 14
+790.05005
+Generation 15
+790.05005
+Generation 16
+790.05005
+Generation 17
+858.37646
+Generation 18
+858.37646
+Generation 19
+858.37646
+Generation 20
+858.37646
+Generation 21
+858.37646
+Generation 22
+858.37646
+Generation 23
+858.37646
+Generation 24
+858.37646
+Generation 25
+858.37646
+Generation 26
+858.37646
+Generation 27
+858.37646
+Generation 28
+858.37646
+Generation 29
+858.37646
+Generation 30
+858.37646
+Generation 31
+858.37646
+Generation 32
+858.37646
+Generation 33
+858.37646
+Generation 34
+858.37646
+Generation 35
+858.37646
+Generation 36
+858.37646
+Generation 37
+858.37646
+Generation 38
+858.37646
+Generation 39
+858.37646
+Generation 40
+858.37646
+Generation 41
+858.37646
+Generation 42
+858.37646
+Generation 43
+858.37646
+Generation 44
+858.37646
+Generation 45
+858.37646
+Generation 46
+858.37646
+Generation 47
+858.37646
+Generation 48
+858.37646
+Generation 49
+858.37646
+Generation 50
+858.37646
+##########  End of the  2  epoch ##########
+Parameters of the best solution : [1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 1. 0. 0. 0.]
+Generation 1
+853.58856
+Generation 2
+982.77344
+Generation 3
+973.8589
+Generation 4
+1075.9796
+Generation 5
+1078.637
+Generation 6
+1075.9796
+Generation 7
+1162.1686
+Generation 8
+1124.1385
+Generation 9
+1083.8622
+Generation 10
+1110.5878
+Generation 11
+1175.6345
+Generation 12
+1141.6156
+Generation 13
+1141.6156
+Generation 14
+1141.6156
+Generation 15
+1141.6156
+Generation 16
+1189.8734
+Generation 17
+1252.2345
+Generation 18
+1189.8734
+Generation 19
+1189.8734
+Generation 20
+1189.8734
+Generation 21
+1189.8734
+Generation 22
+1218.7832
+Generation 23
+1218.7832
+Generation 24
+1218.7832
+Generation 25
+1218.7832
+Generation 26
+1218.7832
+Generation 27
+1218.7832
+Generation 28
+1218.7832
+Generation 29
+1218.7832
+Generation 30
+1218.7832
+Generation 31
+1218.7832
+Generation 32
+1218.7832
+Generation 33
+1237.543
+Generation 34
+1237.543
+Generation 35
+1237.543
+Generation 36
+1237.543
+Generation 37
+1237.543
+Generation 38
+1262.6807
+Generation 39
+1237.543
+Generation 40
+1237.543
+Generation 41
+1244.126
+Generation 42
+1237.543
+Generation 43
+1237.543
+Generation 44
+1237.543
+Generation 45
+1237.543
+Generation 46
+1237.543
+Generation 47
+1237.543
+Generation 48
+1253.6301
+Generation 49
+1237.543
+Generation 50
+1237.543
+Generation 51
+1237.543
+Generation 52
+1237.543
+Generation 53
+1237.543
+Generation 54
+1237.543
+Generation 55
+1237.543
+##########  End of the  3  epoch ##########
+Parameters of the best solution : [1. 1. 1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+1134.7499
+Generation 2
+1414.0161
+Generation 3
+1414.0161
+Generation 4
+1414.0161
+Generation 5
+1414.0161
+Generation 6
+1414.0161
+Generation 7
+1414.0161
+Generation 8
+1414.0161
+Generation 9
+1414.0161
+Generation 10
+1414.0161
+Generation 11
+1494.0892
+Generation 12
+1414.0161
+Generation 13
+1414.0161
+Generation 14
+1453.1855
+Generation 15
+1445.1759
+Generation 16
+1431.9913
+Generation 17
+1478.9087
+Generation 18
+1414.0161
+Generation 19
+1414.0161
+Generation 20
+1414.0161
+Generation 21
+1414.0161
+Generation 22
+1468.0355
+Generation 23
+1468.0355
+Generation 24
+1468.0355
+Generation 25
+1468.0355
+Generation 26
+1468.0355
+Generation 27
+1468.0355
+Generation 28
+1468.0355
+Generation 29
+1468.0355
+Generation 30
+1468.0355
+Generation 31
+1468.0355
+Generation 32
+1511.483
+Generation 33
+1511.483
+Generation 34
+1511.483
+Generation 35
+1511.483
+Generation 36
+1511.483
+Generation 37
+1511.483
+Generation 38
+1511.483
+Generation 39
+1584.7208
+Generation 40
+1584.7208
+Generation 41
+1584.7208
+Generation 42
+1584.7208
+Generation 43
+1584.7208
+Generation 44
+1584.7208
+Generation 45
+1584.7208
+Generation 46
+1584.7208
+Generation 47
+1584.7208
+Generation 48
+1584.7208
+Generation 49
+1584.7208
+Generation 50
+1584.7208
+Generation 51
+1584.7208
+Generation 52
+1584.7208
+Generation 53
+1584.7208
+Generation 54
+1584.7208
+Generation 55
+1584.7208
+Generation 56
+1584.7208
+Generation 57
+1584.7208
+Generation 58
+1584.7208
+Generation 59
+1584.7208
+Generation 60
+1584.7208
+##########  End of the  4  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+ 0. 0. 0. 0. 1. 0.]
+Generation 1
+1480.9683
+Generation 2
+1611.0317
+Generation 3
+1642.8055
+Generation 4
+1726.5854
+Generation 5
+1672.5536
+Generation 6
+1672.5536
+Generation 7
+1687.111
+Generation 8
+1777.6804
+Generation 9
+1777.6804
+Generation 10
+1777.6804
+Generation 11
+1777.6804
+Generation 12
+1777.6804
+Generation 13
+1777.6804
+Generation 14
+1807.6091
+Generation 15
+1807.6091
+Generation 16
+1807.6091
+Generation 17
+1807.6091
+Generation 18
+1807.6091
+Generation 19
+1807.6091
+Generation 20
+1807.6091
+Generation 21
+1807.6091
+Generation 22
+1807.6091
+Generation 23
+1807.6091
+Generation 24
+1807.6091
+Generation 25
+2008.4734
+Generation 26
+1807.6091
+Generation 27
+1807.6091
+Generation 28
+1807.6091
+Generation 29
+1807.6091
+Generation 30
+1807.6091
+Generation 31
+1818.1022
+Generation 32
+1812.2804
+Generation 33
+1812.2804
+Generation 34
+1812.2804
+Generation 35
+1812.2804
+Generation 36
+1812.2804
+Generation 37
+1812.2804
+Generation 38
+1812.2804
+Generation 39
+1812.2804
+Generation 40
+1812.2804
+Generation 41
+1812.2804
+Generation 42
+1812.2804
+Generation 43
+1821.0367
+Generation 44
+1821.0367
+Generation 45
+1821.0367
+Generation 46
+1821.0367
+Generation 47
+1821.0367
+Generation 48
+1821.0367
+Generation 49
+1821.0367
+Generation 50
+1839.0323
+Generation 51
+1839.0323
+Generation 52
+1839.0323
+Generation 53
+1839.0323
+Generation 54
+1839.0323
+Generation 55
+1839.0323
+Generation 56
+1839.0323
+Generation 57
+1839.0323
+Generation 58
+1839.0323
+Generation 59
+1839.0323
+Generation 60
+1839.0323
+Generation 61
+1839.0323
+Generation 62
+1839.0323
+Generation 63
+1839.0323
+Generation 64
+1839.0323
+Generation 65
+1839.0323
+##########  End of the  5  epoch ##########
+Parameters of the best solution : [1. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0.
+ 1. 0. 1. 0. 1. 0.]
+Generation 1
+1661.1705
+Generation 2
+1824.2568
+Generation 3
+1871.7003
+Generation 4
+1985.4742
+Generation 5
+2043.043
+Generation 6
+2043.043
+Generation 7
+2043.043
+Generation 8
+2043.043
+Generation 9
+2043.043
+Generation 10
+2043.043
+Generation 11
+2043.043
+Generation 12
+2043.043
+Generation 13
+2043.043
+Generation 14
+2102.0757
+Generation 15
+2102.0757
+Generation 16
+2102.0757
+Generation 17
+2102.0757
+Generation 18
+2102.0757
+Generation 19
+2102.0757
+Generation 20
+2102.0757
+Generation 21
+2102.0757
+Generation 22
+2102.0757
+Generation 23
+2102.0757
+Generation 24
+2102.0757
+Generation 25
+2102.0757
+Generation 26
+2102.0757
+Generation 27
+2102.0757
+Generation 28
+2102.0757
+Generation 29
+2102.0757
+Generation 30
+2102.0757
+Generation 31
+2102.0757
+Generation 32
+2102.0757
+Generation 33
+2102.0757
+Generation 34
+2102.0757
+Generation 35
+2102.0757
+Generation

@@ -1,0 +1,105 @@
+{
+    "os": "Linux-4.15.0-213-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-08-15T18:31:56.023861",
+    "startedAt": "2023-08-15T18:31:53.585915",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "gen_data.py",
+    "codePath": "scripts/gen_data.py",
+    "git": {
+        "remote": "git@github.com:SMATousi/outlier_VAE.git",
+        "commit": "23c1be56b81402bf8dd607b3d39c90b4a72e5503"
+    },
+    "email": "mohamadali.tousi@gmail.com",
+    "root": "/home/macula/SMATousi/VAE_outlier/outlier_VAE",
+    "host": "cornea",
+    "username": "SMATousi",
+    "executable": "/home/macula/SMATousi/.conda/envs/mac-deep/bin/python3",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 800.2164166666666,
+        "min": 800.0,
+        "max": 4600.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 800.426,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.189,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 798.806,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.257,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.081,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.11,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.297,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.077,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.0,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.037,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.361,
+            "min": 800.0,
+            "max": 4600.0
+        },
+        {
+            "current": 800.197,
+            "min": 800.0,
+            "max": 4600.0
+        }
+    ],
+    "disk": {
+        "total": 23.990325927734375,
+        "used": 20.835060119628906
+    },
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2060",
+            "memory_total": 6221463552
+        }
+    ],
+    "memory": {
+        "total": 31.353317260742188
+    }
+}

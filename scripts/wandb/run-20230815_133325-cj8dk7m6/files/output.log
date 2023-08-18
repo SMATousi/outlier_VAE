@@ -1,0 +1,50 @@
+
+Generation 1
+380.64987
+Generation 2
+399.56216
+Generation 3
+405.11316
+Generation 4
+434.64804
+Generation 5
+442.42944
+Generation 6
+Traceback (most recent call last):
+  File "gen_data.py", line 356, in <module>
+    ga_instance.run()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/pygad/pygad.py", line 1883, in run
+    r = self.on_generation(self)
+  File "gen_data.py", line 312, in on_generation
+    solution, solution_fitness, solution_idx = ga_instance.best_solution()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/pygad/pygad.py", line 1948, in best_solution
+    pop_fitness = self.cal_pop_fitness()
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/pygad/pygad.py", line 1542, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+  File "gen_data.py", line 195, in fitness_func_avg
+    in_candidate_rec = vae.decoder(z)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/engine/training.py", line 561, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/engine/base_layer.py", line 1132, in __call__
+    outputs = call_fn(inputs, *args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 96, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/engine/functional.py", line 511, in call
+    return self._run_internal_graph(inputs, training=training, mask=mask)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/engine/functional.py", line 668, in _run_internal_graph
+    outputs = node.layer(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/utils/traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/keras/engine/base_layer.py", line 1121, in __call__
+    namescope_stack.enter_context(tf.name_scope(name_scope))
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/contextlib.py", line 427, in enter_context
+    result = _cm_type.__enter__(cm)
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/tensorflow/python/framework/ops.py", line 6996, in __enter__
+    ctx.scope_name = scope_name
+  File "/home/macula/SMATousi/.conda/envs/mac-deep/lib/python3.7/site-packages/tensorflow/python/eager/context.py", line 970, in scope_name
+    self._thread_local_data.scope_name = s
+KeyboardInterrupt

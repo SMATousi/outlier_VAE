@@ -1,0 +1,28 @@
+2023-08-15 13:47:13,424 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Current SDK version is 0.15.4
+2023-08-15 13:47:13,425 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Configure stats pid to 8634
+2023-08-15 13:47:13,425 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/.config/wandb/settings
+2023-08-15 13:47:13,425 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Loading settings from /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/settings
+2023-08-15 13:47:13,425 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-08-15 13:47:13,426 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-15 13:47:13,426 INFO    MainThread:8634 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'scripts/gen_data.py', 'program': 'gen_data.py'}
+2023-08-15 13:47:13,426 INFO    MainThread:8634 [wandb_init.py:_log_setup():507] Logging user logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_134712-kxfc0f6q/logs/debug.log
+2023-08-15 13:47:13,427 INFO    MainThread:8634 [wandb_init.py:_log_setup():508] Logging internal logs to /home/macula/SMATousi/VAE_outlier/outlier_VAE/scripts/wandb/run-20230815_134712-kxfc0f6q/logs/debug-internal.log
+2023-08-15 13:47:13,427 INFO    MainThread:8634 [wandb_init.py:init():547] calling init triggers
+2023-08-15 13:47:13,427 INFO    MainThread:8634 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {}
+2023-08-15 13:47:13,427 INFO    MainThread:8634 [wandb_init.py:init():596] starting backend
+2023-08-15 13:47:13,427 INFO    MainThread:8634 [wandb_init.py:init():600] setting up manager
+2023-08-15 13:47:13,431 INFO    MainThread:8634 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-08-15 13:47:13,434 INFO    MainThread:8634 [wandb_init.py:init():606] backend started and connected
+2023-08-15 13:47:13,437 INFO    MainThread:8634 [wandb_init.py:init():703] updated telemetry
+2023-08-15 13:47:13,801 INFO    MainThread:8634 [wandb_init.py:init():736] communicating run to backend with 60.0 second timeout
+2023-08-15 13:47:14,379 INFO    MainThread:8634 [wandb_run.py:_on_init():2176] communicating current version
+2023-08-15 13:47:14,663 INFO    MainThread:8634 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.8 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-08-15 13:47:14,663 INFO    MainThread:8634 [wandb_init.py:init():787] starting run threads in backend
+2023-08-15 13:47:21,902 INFO    MainThread:8634 [wandb_run.py:_console_start():2155] atexit reg
+2023-08-15 13:47:21,902 INFO    MainThread:8634 [wandb_run.py:_redirect():2010] redirect: SettingsConsole.WRAP_RAW
+2023-08-15 13:47:21,903 INFO    MainThread:8634 [wandb_run.py:_redirect():2075] Wrapping output streams.
+2023-08-15 13:47:21,903 INFO    MainThread:8634 [wandb_run.py:_redirect():2100] Redirects installed.
+2023-08-15 13:47:21,904 INFO    MainThread:8634 [wandb_init.py:init():828] run started, returning control to user process
+2023-08-15 13:52:39,976 WARNING MsgRouterThr:8634 [router.py:message_loop():77] message_loop has been closed
