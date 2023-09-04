@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2023-09-04T16:36:56.272618",
+    "startedAt": "2023-09-04T16:36:48.332066",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Generated_dataset.ipynb",
+    "root": "/home/ali/outlier_project/outlier_VAE",
+    "git": {
+        "remote": "git@github.com:SMATousi/outlier_VAE.git",
+        "commit": "9892bd9d190883199231fbfa33a0769510411b0f"
+    },
+    "email": "mohamadali.tousi@gmail.com",
+    "host": "ali-GL553VD",
+    "username": "ali",
+    "executable": "/home/ali/anaconda3/envs/rae-project/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3400.157375,
+        "min": 800.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3400.054,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.178,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.024,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.76,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.04,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.023,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.064,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 3400.116,
+            "min": 800.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 457.10711669921875,
+        "used": 97.20328521728516
+    },
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.520771026611328
+    }
+}
