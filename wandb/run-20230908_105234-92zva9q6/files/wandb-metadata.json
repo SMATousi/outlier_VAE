@@ -1,0 +1,84 @@
+{
+    "os": "Linux-5.4.0-150-generic-x86_64-with-glibc2.10",
+    "python": "3.8.0",
+    "heartbeatAt": "2023-09-08T15:52:40.316786",
+    "startedAt": "2023-09-08T15:52:34.485399",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Dual_eq_Min.ipynb",
+    "root": "/home/ali/outlier_project/outlier_VAE",
+    "git": {
+        "remote": "git@github.com:SMATousi/outlier_VAE.git",
+        "commit": "dd2b94b6c5049041241986e081703f076a9493d9"
+    },
+    "email": "mohamadali.tousi@gmail.com",
+    "host": "ali-GL553VD",
+    "username": "ali",
+    "executable": "/home/ali/anaconda3/envs/rae-project/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 949.34,
+        "min": 800.0,
+        "max": 3800.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 901.615,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 901.203,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 931.555,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 909.614,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 916.29,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 1133.098,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 967.728,
+            "min": 800.0,
+            "max": 3800.0
+        },
+        {
+            "current": 933.617,
+            "min": 800.0,
+            "max": 3800.0
+        }
+    ],
+    "disk": {
+        "total": 457.10711669921875,
+        "used": 97.12633895874023
+    },
+    "gpu": "NVIDIA GeForce GTX 1050",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1050",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.520771026611328
+    }
+}

@@ -1,0 +1,915 @@
+2023-09-08 10:52:39,713 INFO    StreamThr :4792 [internal.py:wandb_internal():86] W&B internal server running at pid: 4792, started at: 2023-09-08 10:52:39.711254
+2023-09-08 10:52:39,716 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status
+2023-09-08 10:52:39,720 INFO    WriterThread:4792 [datastore.py:open_for_write():85] open: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/run-92zva9q6.wandb
+2023-09-08 10:52:39,723 DEBUG   SenderThread:4792 [sender.py:send():379] send: header
+2023-09-08 10:52:39,724 DEBUG   SenderThread:4792 [sender.py:send():379] send: run
+2023-09-08 10:52:40,122 INFO    SenderThread:4792 [dir_watcher.py:__init__():211] watching files in: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files
+2023-09-08 10:52:40,123 INFO    SenderThread:4792 [sender.py:_start_run_threads():1121] run started: 92zva9q6 with start time 1694188358.766975
+2023-09-08 10:52:40,134 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:52:40,135 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:52:40,156 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: check_version
+2023-09-08 10:52:40,157 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: check_version
+2023-09-08 10:52:40,279 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: run_start
+2023-09-08 10:52:40,280 DEBUG   HandlerThread:4792 [system_info.py:__init__():31] System info init
+2023-09-08 10:52:40,280 DEBUG   HandlerThread:4792 [system_info.py:__init__():46] System info init done
+2023-09-08 10:52:40,280 INFO    HandlerThread:4792 [system_monitor.py:start():181] Starting system monitor
+2023-09-08 10:52:40,281 INFO    SystemMonitor:4792 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-08 10:52:40,281 INFO    HandlerThread:4792 [system_monitor.py:probe():201] Collecting system info
+2023-09-08 10:52:40,282 INFO    SystemMonitor:4792 [interfaces.py:start():190] Started cpu monitoring
+2023-09-08 10:52:40,282 INFO    SystemMonitor:4792 [interfaces.py:start():190] Started disk monitoring
+2023-09-08 10:52:40,283 INFO    SystemMonitor:4792 [interfaces.py:start():190] Started gpu monitoring
+2023-09-08 10:52:40,285 INFO    SystemMonitor:4792 [interfaces.py:start():190] Started memory monitoring
+2023-09-08 10:52:40,286 INFO    SystemMonitor:4792 [interfaces.py:start():190] Started network monitoring
+2023-09-08 10:52:40,286 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:40,287 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:40,316 DEBUG   HandlerThread:4792 [system_info.py:probe():195] Probing system
+2023-09-08 10:52:40,319 DEBUG   HandlerThread:4792 [system_info.py:_probe_git():180] Probing git
+2023-09-08 10:52:40,351 DEBUG   HandlerThread:4792 [system_info.py:_probe_git():188] Probing git done
+2023-09-08 10:52:40,351 DEBUG   HandlerThread:4792 [system_info.py:probe():240] Probing system done
+2023-09-08 10:52:40,351 DEBUG   HandlerThread:4792 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-150-generic-x86_64-with-glibc2.10', 'python': '3.8.0', 'heartbeatAt': '2023-09-08T15:52:40.316786', 'startedAt': '2023-09-08T15:52:34.485399', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Dual_eq_Min.ipynb', 'root': '/home/ali/outlier_project/outlier_VAE', 'git': {'remote': 'git@github.com:SMATousi/outlier_VAE.git', 'commit': 'dd2b94b6c5049041241986e081703f076a9493d9'}, 'email': 'mohamadali.tousi@gmail.com', 'host': 'ali-GL553VD', 'username': 'ali', 'executable': '/home/ali/anaconda3/envs/rae-project/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 949.34, 'min': 800.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 901.615, 'min': 800.0, 'max': 3800.0}, {'current': 901.203, 'min': 800.0, 'max': 3800.0}, {'current': 931.555, 'min': 800.0, 'max': 3800.0}, {'current': 909.614, 'min': 800.0, 'max': 3800.0}, {'current': 916.29, 'min': 800.0, 'max': 3800.0}, {'current': 1133.098, 'min': 800.0, 'max': 3800.0}, {'current': 967.728, 'min': 800.0, 'max': 3800.0}, {'current': 933.617, 'min': 800.0, 'max': 3800.0}], 'disk': {'total': 457.10711669921875, 'used': 97.12633895874023}, 'gpu': 'NVIDIA GeForce GTX 1050', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050', 'memory_total': 4294967296}], 'memory': {'total': 15.520771026611328}}
+2023-09-08 10:52:40,351 INFO    HandlerThread:4792 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-08 10:52:40,351 INFO    HandlerThread:4792 [system_monitor.py:probe():214] Publishing system info
+2023-09-08 10:52:40,352 DEBUG   HandlerThread:4792 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-08 10:52:40,352 DEBUG   HandlerThread:4792 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-08 10:52:40,352 DEBUG   HandlerThread:4792 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-08 10:52:41,124 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/requirements.txt
+2023-09-08 10:52:41,125 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/conda-environment.yaml
+2023-09-08 10:52:41,125 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:52:42,289 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:42,289 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:43,723 DEBUG   HandlerThread:4792 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-08 10:52:43,723 INFO    HandlerThread:4792 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-08 10:52:43,724 DEBUG   SenderThread:4792 [sender.py:send():379] send: files
+2023-09-08 10:52:43,724 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-08 10:52:43,739 DEBUG   SenderThread:4792 [sender.py:send():379] send: telemetry
+2023-09-08 10:52:43,766 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:52:43,766 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:52:44,108 INFO    wandb-upload_0:4792 [upload_job.py:push():131] Uploaded file /tmp/tmpa3q4vy0iwandb/6g7i8vba-wandb-metadata.json
+2023-09-08 10:52:44,123 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/conda-environment.yaml
+2023-09-08 10:52:44,124 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-metadata.json
+2023-09-08 10:52:44,290 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:44,290 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:44,919 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:52:46,291 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:46,291 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:48,292 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:48,292 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:49,125 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:52:50,293 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:50,293 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:50,876 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:52:51,125 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:52:51,675 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:52:51,676 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:52:51,676 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:52:51,677 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:52:52,126 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:52:52,294 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:52,294 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:53,126 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:52:54,295 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:54,295 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:55,127 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:52:56,296 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:56,296 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:56,308 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:52:56,705 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:52:56,706 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:52:56,706 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:52:56,707 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:52:57,127 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:52:58,296 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:58,296 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:52:58,738 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:52:58,739 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:52:59,128 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:00,297 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:00,297 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:00,830 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:00,831 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:00,831 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:00,833 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:01,128 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:01,128 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:01,834 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:02,298 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:02,298 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:03,129 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:04,299 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:04,299 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:04,801 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:04,802 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:04,802 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:04,802 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:05,129 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:05,129 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:06,300 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:06,300 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:07,130 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:07,622 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:08,301 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:08,301 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:08,696 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:08,697 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:08,697 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:08,697 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:09,130 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:09,131 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:10,340 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:53:10,340 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:10,340 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:11,131 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:12,341 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:12,341 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:13,092 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:13,131 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:13,356 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:13,357 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:13,357 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:13,357 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:13,739 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:53:13,740 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:53:14,132 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/config.yaml
+2023-09-08 10:53:14,132 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:14,342 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:14,342 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:15,132 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:16,342 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:16,343 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:17,133 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:17,490 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:17,491 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:17,491 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:17,491 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:18,133 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:18,343 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:18,343 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:18,492 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:19,133 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:20,344 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:20,344 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:21,134 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:21,655 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:21,656 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:21,656 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:21,657 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:22,134 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:22,344 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:22,345 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:23,134 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:23,657 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:24,345 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:24,345 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:25,135 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:25,831 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:25,832 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:25,832 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:25,833 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:26,135 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:26,346 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:26,346 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:27,136 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:28,347 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:28,347 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:28,740 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:28,740 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:53:28,741 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:53:29,136 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:29,918 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:29,919 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:29,919 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:29,919 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:30,137 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:30,347 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:30,347 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:31,137 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:32,348 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:32,348 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:33,137 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:33,797 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:33,798 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:33,798 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:33,798 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:33,798 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:34,138 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:34,349 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:34,349 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:35,138 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:36,349 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:36,349 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:37,139 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:38,114 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:38,115 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:38,115 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:38,116 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:38,139 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:38,350 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:38,350 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:39,116 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:39,139 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:40,286 DEBUG   SystemMonitor:4792 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-08 10:53:40,287 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:53:40,391 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:53:40,392 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:40,392 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:41,140 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:42,393 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:42,393 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:42,474 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:42,475 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:42,475 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:42,476 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:43,140 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:43,740 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:53:43,741 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:53:44,394 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:44,394 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:44,518 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:45,141 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:46,394 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:46,395 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:46,635 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:46,636 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:46,636 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:46,636 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:47,142 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:47,142 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:48,395 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:48,395 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:49,142 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:49,656 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:50,396 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:50,396 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:50,693 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:50,693 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:50,694 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:50,694 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:51,143 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:51,143 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:52,397 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:52,397 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:53,143 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:54,397 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:54,397 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:54,716 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:53:54,755 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:54,756 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:54,756 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:54,757 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:55,144 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:55,144 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:56,399 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:56,399 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:57,145 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:58,399 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:58,400 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:53:58,741 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:53:58,741 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:53:58,993 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:53:58,994 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:53:58,995 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:53:58,995 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:53:59,145 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:53:59,146 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:53:59,995 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:00,400 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:00,400 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:01,146 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:02,401 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:02,401 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:03,107 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:03,108 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:03,108 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:03,108 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:03,147 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:03,147 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:04,401 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:04,402 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:05,103 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:05,147 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:06,402 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:06,402 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:07,066 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:07,067 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:07,067 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:07,068 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:07,148 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:07,148 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:08,403 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:08,403 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:09,148 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:10,191 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:10,287 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:54:10,440 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:54:10,441 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:10,441 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:11,149 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:11,211 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:11,212 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:11,212 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:11,212 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:12,149 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:12,441 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:12,441 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:13,149 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:13,740 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:54:13,741 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:54:14,442 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:14,442 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:15,150 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:15,285 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:15,285 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:15,286 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:15,286 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:15,287 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:16,150 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:16,443 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:16,443 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:17,151 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:18,444 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:18,444 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:19,151 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:19,310 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:19,311 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:19,312 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:19,312 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:20,151 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:20,313 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:20,445 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:20,445 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:21,152 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:22,445 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:22,446 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:23,152 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:23,485 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:23,486 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:23,486 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:23,487 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:24,153 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:24,446 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:24,446 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:25,153 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:25,487 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:26,447 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:26,447 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:27,154 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:27,573 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:27,574 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:27,574 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:27,575 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:28,154 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:28,448 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:28,448 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:28,741 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:54:28,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:54:29,154 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:30,448 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:30,448 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:30,609 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:31,155 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:31,775 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:31,776 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:31,776 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:31,777 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:32,155 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:32,449 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:32,449 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:33,155 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:34,450 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:34,450 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:35,156 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:35,858 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:35,911 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:35,912 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:35,912 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:35,912 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:36,156 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:36,450 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:36,450 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:37,157 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:38,451 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:38,451 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:39,157 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:39,968 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:39,969 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:39,969 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:39,970 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:40,157 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:40,288 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:54:40,486 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:54:40,486 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:40,486 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:41,158 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:41,288 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:42,487 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:42,487 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:43,158 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:43,742 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:54:43,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:54:44,158 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:44,158 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:44,159 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:44,159 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:44,160 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:44,488 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:44,488 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:45,160 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:46,488 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:46,488 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:47,161 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:47,227 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:48,279 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:48,280 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:48,280 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:48,280 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:48,489 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:48,489 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:49,162 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:49,162 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:50,490 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:50,490 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:51,162 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:52,407 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:52,490 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:52,491 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:52,586 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:52,587 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:52,587 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:52,587 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:53,163 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:54,491 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:54,491 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:55,163 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:56,492 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:56,492 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:56,903 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:54:56,904 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:54:56,904 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:54:56,904 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:54:57,164 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:54:57,164 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:54:57,904 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:54:58,493 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:58,494 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:54:58,742 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:54:58,743 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:54:59,165 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:00,494 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:00,494 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:01,084 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:01,085 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:01,085 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:01,086 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:01,165 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:01,166 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:02,495 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:02,495 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:03,086 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:03,166 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:04,496 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:04,496 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:05,166 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:05,354 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:05,355 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:05,356 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:05,356 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:06,167 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:06,496 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:06,497 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:07,167 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:08,395 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:08,497 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:08,497 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:09,168 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:09,348 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:09,349 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:09,349 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:09,350 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:10,168 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:10,288 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:55:10,532 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:55:10,533 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:10,533 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:11,168 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:12,533 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:12,533 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:13,169 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:13,321 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:13,322 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:13,323 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:13,323 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:13,741 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:13,742 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:55:13,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:55:14,169 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:14,534 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:14,534 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:15,169 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:16,535 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:16,535 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:17,170 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:17,658 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:17,659 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:17,660 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:17,660 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:18,170 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:18,536 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:18,536 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:19,170 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:19,660 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:20,536 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:20,537 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:21,171 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:21,707 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:21,708 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:21,708 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:21,708 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:22,171 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:22,537 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:22,537 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:23,171 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:24,538 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:24,538 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:24,763 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:25,172 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:25,755 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:25,756 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:25,757 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:25,757 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:26,172 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:26,539 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:26,539 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:27,173 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:28,540 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:28,540 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:28,742 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:55:28,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:55:29,173 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:29,939 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:29,940 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:29,940 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:29,940 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:29,941 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:30,173 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:30,541 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:30,541 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:31,174 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:32,541 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:32,542 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:33,175 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:33,916 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:33,917 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:33,917 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:33,917 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:34,175 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:34,542 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:34,542 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:35,175 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:35,872 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:35,873 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:35,874 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:35,874 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:35,875 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:36,175 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:36,543 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:36,543 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:37,176 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:38,543 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:38,544 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:40,289 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:55:40,579 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:55:40,579 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:40,579 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:41,177 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:41,291 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:42,485 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:42,487 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:42,487 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:42,487 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:42,580 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:42,580 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:43,177 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:43,178 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:43,741 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:55:43,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:55:44,580 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:44,581 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:46,581 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:46,581 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:46,681 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:46,957 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:46,958 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:46,958 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:46,959 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:47,178 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:47,179 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:48,582 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:48,582 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:49,179 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:50,583 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:50,583 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:51,179 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:51,617 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:51,618 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:51,618 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:51,619 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:52,180 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:52,584 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:52,584 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:52,619 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:53,180 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:54,585 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:54,585 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:55,181 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:56,250 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:55:56,251 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:55:56,251 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:55:56,252 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:55:56,586 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:56,586 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:57,181 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:55:57,181 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:55:58,252 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:55:58,586 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:58,587 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:55:58,741 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:55:58,742 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:56:00,587 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:00,587 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:00,735 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:00,736 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:00,736 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:00,737 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:01,182 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:01,182 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:02,588 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:02,588 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:03,183 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:03,849 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:04,589 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:04,589 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:05,056 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:05,057 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:05,057 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:05,057 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:05,184 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:05,184 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:06,590 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:06,590 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:07,184 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:08,591 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:08,591 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:09,101 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:09,102 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:09,102 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:09,102 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:09,103 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:09,185 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:09,185 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:10,289 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:56:10,630 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:56:10,630 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:10,630 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:11,185 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:12,631 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:12,631 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:13,186 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:13,499 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:13,499 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:13,500 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:13,500 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:13,743 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:56:13,743 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:56:14,186 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:14,632 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:14,632 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:14,850 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:15,187 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:16,633 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:16,633 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:17,187 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:17,658 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:17,660 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:17,660 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:17,660 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:18,188 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:18,634 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:18,634 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:19,188 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:20,632 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:20,635 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:20,635 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:21,189 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:21,633 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:21,634 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:21,634 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:21,634 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:22,189 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:22,636 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:22,636 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:23,189 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:24,637 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:24,637 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:25,190 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:25,871 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:25,944 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:25,945 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:25,945 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:25,946 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:26,190 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:26,637 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:26,638 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:27,190 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:28,638 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:28,638 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:28,742 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:56:28,743 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:56:29,191 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:29,954 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:29,956 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:29,956 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:29,956 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:30,191 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:30,639 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:30,639 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:30,957 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:31,192 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:32,640 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:32,640 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:33,192 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:34,459 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-08 10:56:34,460 DEBUG   SenderThread:4792 [sender.py:send():379] send: history
+2023-09-08 10:56:34,460 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: summary_record
+2023-09-08 10:56:34,460 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:34,641 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:34,641 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:35,193 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:35,193 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:36,461 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:36,643 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:36,643 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:38,645 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:38,646 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:40,291 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:56:40,688 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:56:40,689 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:40,689 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:42,293 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:42,690 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:42,691 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:43,743 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-08 10:56:43,744 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: stop_status
+2023-09-08 10:56:44,692 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:44,693 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:46,694 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:46,694 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:47,867 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:48,696 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:48,696 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:50,698 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:50,698 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:52,699 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:52,700 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:52,869 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:54,701 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:54,702 ERROR   gpu       :4792 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-08 10:56:55,310 DEBUG   SenderThread:4792 [sender.py:send():379] send: telemetry
+2023-09-08 10:56:55,311 DEBUG   SenderThread:4792 [sender.py:send():379] send: exit
+2023-09-08 10:56:55,311 INFO    SenderThread:4792 [sender.py:send_exit():584] handling exit code: 0
+2023-09-08 10:56:55,311 INFO    SenderThread:4792 [sender.py:send_exit():586] handling runtime: 255
+2023-09-08 10:56:55,314 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:55,314 INFO    SenderThread:4792 [sender.py:send_exit():592] send defer
+2023-09-08 10:56:55,314 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,315 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-08 10:56:55,315 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,315 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-08 10:56:55,315 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 1
+2023-09-08 10:56:55,315 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,315 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-08 10:56:55,315 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,315 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-08 10:56:55,316 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 2
+2023-09-08 10:56:55,316 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,316 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-08 10:56:55,316 INFO    HandlerThread:4792 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-08 10:56:55,316 DEBUG   SystemMonitor:4792 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-08 10:56:55,316 INFO    HandlerThread:4792 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-08 10:56:55,316 DEBUG   SystemMonitor:4792 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-08 10:56:55,317 INFO    HandlerThread:4792 [interfaces.py:finish():202] Joined disk monitor
+2023-09-08 10:56:55,365 ERROR   gpu       :4792 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-08 10:56:55,365 INFO    HandlerThread:4792 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-08 10:56:55,365 INFO    HandlerThread:4792 [interfaces.py:finish():202] Joined memory monitor
+2023-09-08 10:56:55,365 INFO    HandlerThread:4792 [interfaces.py:finish():202] Joined network monitor
+2023-09-08 10:56:55,366 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,366 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-08 10:56:55,366 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 3
+2023-09-08 10:56:55,366 DEBUG   SenderThread:4792 [sender.py:send():379] send: stats
+2023-09-08 10:56:55,366 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,366 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-08 10:56:55,366 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,367 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-08 10:56:55,367 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 4
+2023-09-08 10:56:55,367 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,367 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-08 10:56:55,367 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,367 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-08 10:56:55,367 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 5
+2023-09-08 10:56:55,367 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,367 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-08 10:56:55,367 DEBUG   SenderThread:4792 [sender.py:send():379] send: summary
+2023-09-08 10:56:55,758 INFO    SenderThread:4792 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-08 10:56:55,758 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,758 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-08 10:56:55,758 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 6
+2023-09-08 10:56:55,758 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:55,758 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-08 10:56:55,759 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:55,759 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-08 10:56:55,763 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: status_report
+2023-09-08 10:56:56,206 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:56:56,314 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-08 10:56:57,451 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 7
+2023-09-08 10:56:57,452 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: poll_exit
+2023-09-08 10:56:57,453 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:57,453 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-08 10:56:57,454 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:57,454 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-08 10:56:58,207 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/config.yaml
+2023-09-08 10:56:59,147 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 8
+2023-09-08 10:56:59,148 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:59,148 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-08 10:56:59,149 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:56:59,149 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-08 10:56:59,149 INFO    SenderThread:4792 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-08 10:56:59,150 INFO    SenderThread:4792 [job_builder.py:build():297] run is notebook based run
+2023-09-08 10:56:59,150 INFO    SenderThread:4792 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-08 10:56:59,155 INFO    SenderThread:4792 [job_builder.py:build():374] adding wandb-job metadata file
+2023-09-08 10:56:59,208 INFO    Thread-51 :4792 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:56:59,790 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 9
+2023-09-08 10:56:59,791 DEBUG   SenderThread:4792 [sender.py:send():379] send: artifact
+2023-09-08 10:56:59,795 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:56:59,795 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-08 10:57:00,827 INFO    wandb-upload_0:4792 [upload_job.py:push():89] Uploaded file /home/ali/.local/share/wandb/artifacts/staging/tmpkhx3duj4
+2023-09-08 10:57:00,996 INFO    wandb-upload_1:4792 [upload_job.py:push():89] Uploaded file /home/ali/.local/share/wandb/artifacts/staging/tmp91nac4v6
+2023-09-08 10:57:01,316 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-08 10:57:02,055 INFO    SenderThread:4792 [sender.py:send_artifact():1475] sent artifact job-git_github.com_SMATousi_outlier_VAE.git_Dual_eq_Min.ipynb - {'id': 'QXJ0aWZhY3Q6NTYyNTcwMzM0', 'digest': '4c9fdafd56ed03a0a0ae49a381b6b0e0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1OTcwMDc4', 'latestArtifact': None}, 'version': 'latest'}
+2023-09-08 10:57:02,055 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:02,055 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-08 10:57:02,056 INFO    SenderThread:4792 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-08 10:57:02,210 INFO    SenderThread:4792 [dir_watcher.py:finish():388] scan: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files
+2023-09-08 10:57:02,211 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-metadata.json wandb-metadata.json
+2023-09-08 10:57:02,211 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/config.yaml config.yaml
+2023-09-08 10:57:02,212 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json wandb-summary.json
+2023-09-08 10:57:02,213 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/conda-environment.yaml conda-environment.yaml
+2023-09-08 10:57:02,221 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/requirements.txt requirements.txt
+2023-09-08 10:57:02,230 INFO    SenderThread:4792 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log output.log
+2023-09-08 10:57:02,232 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 10
+2023-09-08 10:57:02,235 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:57:02,235 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-08 10:57:02,235 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:02,235 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-08 10:57:02,235 INFO    SenderThread:4792 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-08 10:57:02,459 INFO    wandb-upload_0:4792 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/config.yaml
+2023-09-08 10:57:02,547 INFO    wandb-upload_1:4792 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/wandb-summary.json
+2023-09-08 10:57:02,619 INFO    wandb-upload_2:4792 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/conda-environment.yaml
+2023-09-08 10:57:02,635 INFO    wandb-upload_4:4792 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/output.log
+2023-09-08 10:57:02,640 INFO    wandb-upload_3:4792 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/files/requirements.txt
+2023-09-08 10:57:02,841 INFO    Thread-50 :4792 [sender.py:transition_state():612] send defer: 11
+2023-09-08 10:57:02,842 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:57:02,842 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-08 10:57:02,843 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:02,844 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-08 10:57:02,844 INFO    SenderThread:4792 [file_pusher.py:join():164] waiting for file pusher
+2023-09-08 10:57:02,844 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 12
+2023-09-08 10:57:02,844 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:57:02,845 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-08 10:57:02,845 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:02,845 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-08 10:57:02,846 INFO    SenderThread:4792 [file_stream.py:finish():593] file stream finish called
+2023-09-08 10:57:03,108 INFO    SenderThread:4792 [file_stream.py:finish():597] file stream finish is done
+2023-09-08 10:57:03,109 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 13
+2023-09-08 10:57:03,109 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:57:03,109 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-08 10:57:03,110 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:03,110 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-08 10:57:03,111 INFO    SenderThread:4792 [sender.py:transition_state():612] send defer: 14
+2023-09-08 10:57:03,111 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: defer
+2023-09-08 10:57:03,111 INFO    HandlerThread:4792 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-08 10:57:03,113 DEBUG   SenderThread:4792 [sender.py:send():379] send: final
+2023-09-08 10:57:03,113 DEBUG   SenderThread:4792 [sender.py:send():379] send: footer
+2023-09-08 10:57:03,113 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: defer
+2023-09-08 10:57:03,113 INFO    SenderThread:4792 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-08 10:57:03,115 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-08 10:57:03,117 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: server_info
+2023-09-08 10:57:03,117 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-08 10:57:03,117 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: poll_exit
+2023-09-08 10:57:03,118 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-08 10:57:03,119 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: server_info
+2023-09-08 10:57:03,121 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: job_info
+2023-09-08 10:57:03,179 DEBUG   SenderThread:4792 [sender.py:send_request():406] send_request: job_info
+2023-09-08 10:57:03,181 DEBUG   HandlerThread:4792 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-08 10:57:03,181 INFO    HandlerThread:4792 [handler.py:finish():861] shutting down handler
+2023-09-08 10:57:04,128 INFO    WriterThread:4792 [datastore.py:close():294] close: /home/ali/outlier_project/outlier_VAE/wandb/run-20230908_105234-92zva9q6/run-92zva9q6.wandb
+2023-09-08 10:57:04,180 INFO    SenderThread:4792 [sender.py:finish():1552] shutting down sender
+2023-09-08 10:57:04,180 INFO    SenderThread:4792 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-08 10:57:04,180 INFO    SenderThread:4792 [file_pusher.py:join():164] waiting for file pusher
