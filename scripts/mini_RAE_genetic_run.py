@@ -160,7 +160,7 @@ tdata = np.expand_dims(tdata, -1).astype("float32")
 
 rae = RAE(encoder, decoder)
 rae.compile(optimizer=tf.keras.optimizers.Adam())
-history = rae.fit(creditdata, epochs=100, batch_size=256)
+history = rae.fit(tdata, epochs=100, batch_size=256)
 
 
 best_solutions = []
