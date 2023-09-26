@@ -10,6 +10,7 @@ import wandb
 import tensorflow.keras.backend as K
 from tensorflow.python.client import device_lib
 
+os.system("wandb login 5f0550a5efaee6dacd932e9d1178f33022ed081b")
 # print(device_lib.list_local_devices())
 
 import matplotlib.pyplot as plt
