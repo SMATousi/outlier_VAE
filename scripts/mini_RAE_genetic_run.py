@@ -1,3 +1,6 @@
+import os
+os.system("pip install pygad")
+
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
@@ -6,7 +9,7 @@ import pygad
 import wandb
 import tensorflow.keras.backend as K
 from tensorflow.python.client import device_lib
-import os
+
 # print(device_lib.list_local_devices())
 
 import matplotlib.pyplot as plt
