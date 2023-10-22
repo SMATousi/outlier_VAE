@@ -1,0 +1,55 @@
+2023-09-13 11:46:57,485 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Configure stats pid to 6486
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from /home/ali/.config/wandb/settings
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from /home/ali/outlier_project/outlier_VAE/wandb/settings
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-13 11:46:57,486 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-13 11:46:57,487 INFO    MainThread:6486 [wandb_init.py:_log_setup():524] Logging user logs to /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/logs/debug.log
+2023-09-13 11:46:57,487 INFO    MainThread:6486 [wandb_init.py:_log_setup():525] Logging internal logs to /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/logs/debug-internal.log
+2023-09-13 11:46:57,488 INFO    MainThread:6486 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f489c317790>
+2023-09-13 11:46:57,489 INFO    MainThread:6486 [wandb_init.py:init():564] calling init triggers
+2023-09-13 11:46:57,489 INFO    MainThread:6486 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-09-13 11:46:57,489 INFO    MainThread:6486 [wandb_init.py:init():613] starting backend
+2023-09-13 11:46:57,490 INFO    MainThread:6486 [wandb_init.py:init():617] setting up manager
+2023-09-13 11:46:57,494 INFO    MainThread:6486 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-09-13 11:46:57,496 INFO    MainThread:6486 [wandb_init.py:init():623] backend started and connected
+2023-09-13 11:46:57,511 INFO    MainThread:6486 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2023-09-13 11:46:57,515 INFO    MainThread:6486 [wandb_init.py:init():714] updated telemetry
+2023-09-13 11:46:57,571 INFO    MainThread:6486 [wandb_init.py:init():747] communicating run to backend with 60.0 second timeout
+2023-09-13 11:46:57,941 INFO    MainThread:6486 [wandb_run.py:_on_init():2180] communicating current version
+2023-09-13 11:46:58,048 INFO    MainThread:6486 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.15.10 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-09-13 11:46:58,049 INFO    MainThread:6486 [wandb_init.py:init():798] starting run threads in backend
+2023-09-13 11:47:01,616 INFO    MainThread:6486 [wandb_run.py:_console_start():2159] atexit reg
+2023-09-13 11:47:01,616 INFO    MainThread:6486 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-09-13 11:47:01,617 INFO    MainThread:6486 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-09-13 11:47:01,617 INFO    MainThread:6486 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-09-13 11:47:01,617 INFO    MainThread:6486 [wandb_init.py:init():839] run started, returning control to user process
+2023-09-13 11:47:03,405 INFO    MainThread:6486 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-13 11:47:03,405 INFO    MainThread:6486 [wandb_init.py:_pause_backend():435] pausing backend
+2023-09-13 11:47:49,276 INFO    MainThread:6486 [wandb_init.py:_resume_backend():440] resuming backend
+2023-09-13 11:47:49,290 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Current SDK version is 0.15.9
+2023-09-13 11:47:49,290 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Configure stats pid to 6486
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from /home/ali/.config/wandb/settings
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from /home/ali/outlier_project/outlier_VAE/wandb/settings
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_init.py:_log_setup():524] Logging user logs to /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114749-1cbo4l62/logs/debug.log
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_init.py:_log_setup():525] Logging internal logs to /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114749-1cbo4l62/logs/debug-internal.log
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_init.py:init():564] calling init triggers
+2023-09-13 11:47:49,291 INFO    MainThread:6486 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-09-13 11:47:49,292 INFO    MainThread:6486 [wandb_init.py:init():588] re-initializing run, found existing run on stack: k1w0cuag
+2023-09-13 11:47:49,294 INFO    MainThread:6486 [wandb_run.py:_finish():1894] finishing run tousi-team/RAE_Outlier_GA_Dual_Test_normalized/k1w0cuag
+2023-09-13 11:47:49,294 INFO    MainThread:6486 [jupyter.py:save_history():445] not saving jupyter history
+2023-09-13 11:47:49,294 INFO    MainThread:6486 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-09-13 11:47:49,294 INFO    MainThread:6486 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2023-09-13 11:47:49,294 INFO    MainThread:6486 [wandb_run.py:_atexit_cleanup():2128] got exitcode: 0
+2023-09-13 11:47:49,295 INFO    MainThread:6486 [wandb_run.py:_restore():2111] restore
+2023-09-13 11:47:49,295 INFO    MainThread:6486 [wandb_run.py:_restore():2117] restore done
+2023-09-13 11:47:57,754 INFO    MainThread:6486 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-09-13 11:47:57,755 INFO    MainThread:6486 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-09-13 11:47:57,766 INFO    MainThread:6486 [wandb_run.py:_footer_sync_info():3440] logging synced files

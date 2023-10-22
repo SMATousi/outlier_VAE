@@ -1,0 +1,236 @@
+2023-09-13 11:46:57,499 INFO    StreamThr :6672 [internal.py:wandb_internal():86] W&B internal server running at pid: 6672, started at: 2023-09-13 11:46:57.498557
+2023-09-13 11:46:57,501 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status
+2023-09-13 11:46:57,516 INFO    WriterThread:6672 [datastore.py:open_for_write():85] open: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/run-k1w0cuag.wandb
+2023-09-13 11:46:57,516 DEBUG   SenderThread:6672 [sender.py:send():379] send: header
+2023-09-13 11:46:57,572 DEBUG   SenderThread:6672 [sender.py:send():379] send: run
+2023-09-13 11:46:57,920 INFO    SenderThread:6672 [dir_watcher.py:__init__():211] watching files in: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files
+2023-09-13 11:46:57,920 INFO    SenderThread:6672 [sender.py:_start_run_threads():1121] run started: k1w0cuag with start time 1694623617.496705
+2023-09-13 11:46:57,926 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: summary_record
+2023-09-13 11:46:57,927 INFO    SenderThread:6672 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-13 11:46:57,942 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: check_version
+2023-09-13 11:46:57,943 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: check_version
+2023-09-13 11:46:58,061 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: run_start
+2023-09-13 11:46:58,085 DEBUG   HandlerThread:6672 [system_info.py:__init__():31] System info init
+2023-09-13 11:46:58,085 DEBUG   HandlerThread:6672 [system_info.py:__init__():46] System info init done
+2023-09-13 11:46:58,085 INFO    HandlerThread:6672 [system_monitor.py:start():181] Starting system monitor
+2023-09-13 11:46:58,086 INFO    SystemMonitor:6672 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-13 11:46:58,087 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started cpu monitoring
+2023-09-13 11:46:58,087 INFO    HandlerThread:6672 [system_monitor.py:probe():201] Collecting system info
+2023-09-13 11:46:58,089 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started disk monitoring
+2023-09-13 11:46:58,090 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started gpu monitoring
+2023-09-13 11:46:58,092 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started memory monitoring
+2023-09-13 11:46:58,092 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started network monitoring
+2023-09-13 11:46:58,098 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:46:58,098 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:46:58,123 DEBUG   HandlerThread:6672 [system_info.py:probe():195] Probing system
+2023-09-13 11:46:58,131 DEBUG   HandlerThread:6672 [system_info.py:_probe_git():180] Probing git
+2023-09-13 11:46:58,150 DEBUG   HandlerThread:6672 [system_info.py:_probe_git():188] Probing git done
+2023-09-13 11:46:58,151 DEBUG   HandlerThread:6672 [system_info.py:probe():240] Probing system done
+2023-09-13 11:46:58,151 DEBUG   HandlerThread:6672 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-150-generic-x86_64-with-glibc2.10', 'python': '3.8.0', 'heartbeatAt': '2023-09-13T16:46:58.124113', 'startedAt': '2023-09-13T16:46:57.479944', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Dual_eq_Min.ipynb', 'root': '/home/ali/outlier_project/outlier_VAE', 'git': {'remote': 'git@github.com:SMATousi/outlier_VAE.git', 'commit': '87f3e68c3fb49cb034866e1f06b16f6542c24274'}, 'email': 'mohamadali.tousi@gmail.com', 'host': 'ali-GL553VD', 'username': 'ali', 'executable': '/home/ali/anaconda3/envs/rae-project/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1800.1303750000002, 'min': 800.0, 'max': 3800.0}, 'cpu_freq_per_core': [{'current': 1800.105, 'min': 800.0, 'max': 3800.0}, {'current': 1800.35, 'min': 800.0, 'max': 3800.0}, {'current': 1800.235, 'min': 800.0, 'max': 3800.0}, {'current': 1800.018, 'min': 800.0, 'max': 3800.0}, {'current': 1800.053, 'min': 800.0, 'max': 3800.0}, {'current': 1800.189, 'min': 800.0, 'max': 3800.0}, {'current': 1800.029, 'min': 800.0, 'max': 3800.0}, {'current': 1800.064, 'min': 800.0, 'max': 3800.0}], 'disk': {'total': 457.10711669921875, 'used': 98.27633666992188}, 'gpu': 'NVIDIA GeForce GTX 1050', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050', 'memory_total': 4294967296}], 'memory': {'total': 15.520771026611328}}
+2023-09-13 11:46:58,151 INFO    HandlerThread:6672 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-13 11:46:58,151 INFO    HandlerThread:6672 [system_monitor.py:probe():214] Publishing system info
+2023-09-13 11:46:58,151 DEBUG   HandlerThread:6672 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-09-13 11:46:58,152 DEBUG   HandlerThread:6672 [system_info.py:_save_pip():67] Saving pip packages done
+2023-09-13 11:46:58,152 DEBUG   HandlerThread:6672 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-09-13 11:46:58,921 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-summary.json
+2023-09-13 11:46:58,921 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/conda-environment.yaml
+2023-09-13 11:46:58,922 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/requirements.txt
+2023-09-13 11:47:00,099 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:00,099 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:01,594 DEBUG   HandlerThread:6672 [system_info.py:_save_conda():86] Saving conda packages done
+2023-09-13 11:47:01,594 INFO    HandlerThread:6672 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-13 11:47:01,599 DEBUG   SenderThread:6672 [sender.py:send():379] send: files
+2023-09-13 11:47:01,599 INFO    SenderThread:6672 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-13 11:47:01,618 DEBUG   SenderThread:6672 [sender.py:send():379] send: telemetry
+2023-09-13 11:47:01,633 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-13 11:47:01,634 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: stop_status
+2023-09-13 11:47:01,921 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/conda-environment.yaml
+2023-09-13 11:47:01,921 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/output.log
+2023-09-13 11:47:01,921 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-metadata.json
+2023-09-13 11:47:02,008 INFO    wandb-upload_0:6672 [upload_job.py:push():131] Uploaded file /tmp/tmpfjl5vzn3wandb/8utap0jz-wandb-metadata.json
+2023-09-13 11:47:02,100 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:02,100 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:02,810 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:03,405 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: pause
+2023-09-13 11:47:03,405 INFO    HandlerThread:6672 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-09-13 11:47:03,405 INFO    HandlerThread:6672 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-13 11:47:03,406 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-13 11:47:03,406 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-13 11:47:03,406 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-13 11:47:03,406 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-13 11:47:03,407 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined disk monitor
+2023-09-13 11:47:03,444 ERROR   gpu       :6672 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-13 11:47:03,444 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-13 11:47:03,444 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined memory monitor
+2023-09-13 11:47:03,444 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined network monitor
+2023-09-13 11:47:03,445 DEBUG   SenderThread:6672 [sender.py:send():379] send: stats
+2023-09-13 11:47:03,922 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/output.log
+2023-09-13 11:47:08,446 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:13,448 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:16,617 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-13 11:47:16,619 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: stop_status
+2023-09-13 11:47:18,707 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:23,709 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:28,717 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:28,938 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/config.yaml
+2023-09-13 11:47:31,618 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-13 11:47:31,619 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: stop_status
+2023-09-13 11:47:34,713 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:39,714 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:44,716 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:46,618 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-13 11:47:46,619 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: stop_status
+2023-09-13 11:47:49,277 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: resume
+2023-09-13 11:47:49,277 INFO    HandlerThread:6672 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-09-13 11:47:49,277 INFO    HandlerThread:6672 [system_monitor.py:start():181] Starting system monitor
+2023-09-13 11:47:49,277 INFO    SystemMonitor:6672 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-13 11:47:49,278 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started cpu monitoring
+2023-09-13 11:47:49,278 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started disk monitoring
+2023-09-13 11:47:49,279 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started gpu monitoring
+2023-09-13 11:47:49,279 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started memory monitoring
+2023-09-13 11:47:49,279 INFO    SystemMonitor:6672 [interfaces.py:start():190] Started network monitoring
+2023-09-13 11:47:49,280 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:49,280 ERROR   gpu       :6672 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2023-09-13 11:47:49,294 DEBUG   SenderThread:6672 [sender.py:send():379] send: telemetry
+2023-09-13 11:47:49,295 DEBUG   SenderThread:6672 [sender.py:send():379] send: exit
+2023-09-13 11:47:49,295 INFO    SenderThread:6672 [sender.py:send_exit():584] handling exit code: 0
+2023-09-13 11:47:49,296 INFO    SenderThread:6672 [sender.py:send_exit():586] handling runtime: 5
+2023-09-13 11:47:49,298 INFO    SenderThread:6672 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-13 11:47:49,298 INFO    SenderThread:6672 [sender.py:send_exit():592] send defer
+2023-09-13 11:47:49,298 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,298 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-13 11:47:49,299 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,299 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-13 11:47:49,299 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 1
+2023-09-13 11:47:49,299 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,299 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-13 11:47:49,299 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,299 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-13 11:47:49,300 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 2
+2023-09-13 11:47:49,300 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,300 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-13 11:47:49,300 INFO    HandlerThread:6672 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-13 11:47:49,300 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-13 11:47:49,300 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined disk monitor
+2023-09-13 11:47:49,300 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-13 11:47:49,301 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-13 11:47:49,301 DEBUG   SystemMonitor:6672 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-13 11:47:49,342 ERROR   gpu       :6672 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2023-09-13 11:47:49,342 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-13 11:47:49,342 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined memory monitor
+2023-09-13 11:47:49,342 INFO    HandlerThread:6672 [interfaces.py:finish():202] Joined network monitor
+2023-09-13 11:47:49,343 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,343 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-13 11:47:49,343 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 3
+2023-09-13 11:47:49,343 DEBUG   SenderThread:6672 [sender.py:send():379] send: stats
+2023-09-13 11:47:49,343 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,344 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-13 11:47:49,344 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,344 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-13 11:47:49,344 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 4
+2023-09-13 11:47:49,344 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,344 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-13 11:47:49,344 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,344 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-13 11:47:49,344 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 5
+2023-09-13 11:47:49,345 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,345 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-13 11:47:49,345 DEBUG   SenderThread:6672 [sender.py:send():379] send: summary
+2023-09-13 11:47:49,910 INFO    SenderThread:6672 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-13 11:47:49,911 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,911 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:49,911 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-13 11:47:49,912 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 6
+2023-09-13 11:47:49,913 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:49,913 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-13 11:47:49,914 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:49,914 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-13 11:47:49,919 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:49,950 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-summary.json
+2023-09-13 11:47:50,031 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 7
+2023-09-13 11:47:50,032 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:50,032 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-13 11:47:50,033 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:50,033 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-13 11:47:50,298 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-13 11:47:50,950 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/config.yaml
+2023-09-13 11:47:51,878 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 8
+2023-09-13 11:47:51,878 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: poll_exit
+2023-09-13 11:47:51,879 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:51,879 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-13 11:47:51,880 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:51,881 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-13 11:47:51,881 INFO    SenderThread:6672 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-13 11:47:51,881 INFO    SenderThread:6672 [job_builder.py:build():297] run is notebook based run
+2023-09-13 11:47:51,882 INFO    SenderThread:6672 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-09-13 11:47:51,888 INFO    SenderThread:6672 [job_builder.py:build():374] adding wandb-job metadata file
+2023-09-13 11:47:51,951 INFO    Thread-12 :6672 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/output.log
+2023-09-13 11:47:52,523 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 9
+2023-09-13 11:47:52,524 DEBUG   SenderThread:6672 [sender.py:send():379] send: artifact
+2023-09-13 11:47:52,529 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:52,531 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-13 11:47:53,314 INFO    wandb-upload_1:6672 [upload_job.py:push():86] Skipped uploading /home/ali/.local/share/wandb/artifacts/staging/tmpakw4uld6
+2023-09-13 11:47:54,302 INFO    wandb-upload_0:6672 [upload_job.py:push():89] Uploaded file /home/ali/.local/share/wandb/artifacts/staging/tmpajqj7q31
+2023-09-13 11:47:55,180 INFO    SenderThread:6672 [sender.py:send_artifact():1475] sent artifact job-git_github.com_SMATousi_outlier_VAE.git_Dual_eq_Min.ipynb - {'id': 'QXJ0aWZhY3Q6NTY3MTYzNTc2', 'digest': '89df83445e0610fc70124cced2bd55fd', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjk1OTcwMDc4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTY3MTU5NzM4', 'versionIndex': 3}}, 'version': 'latest'}
+2023-09-13 11:47:55,181 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:55,181 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: status_report
+2023-09-13 11:47:55,181 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-13 11:47:55,182 INFO    SenderThread:6672 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-13 11:47:55,300 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: keepalive
+2023-09-13 11:47:55,953 INFO    SenderThread:6672 [dir_watcher.py:finish():388] scan: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files
+2023-09-13 11:47:55,954 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-metadata.json wandb-metadata.json
+2023-09-13 11:47:55,954 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/config.yaml config.yaml
+2023-09-13 11:47:55,955 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-summary.json wandb-summary.json
+2023-09-13 11:47:55,962 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/conda-environment.yaml conda-environment.yaml
+2023-09-13 11:47:55,963 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/requirements.txt requirements.txt
+2023-09-13 11:47:55,976 INFO    SenderThread:6672 [dir_watcher.py:finish():402] scan save: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/output.log output.log
+2023-09-13 11:47:55,978 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 10
+2023-09-13 11:47:55,985 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:55,986 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-13 11:47:55,993 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:55,994 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-13 11:47:55,994 INFO    SenderThread:6672 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-13 11:47:56,241 INFO    wandb-upload_1:6672 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/config.yaml
+2023-09-13 11:47:56,282 INFO    wandb-upload_0:6672 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/wandb-summary.json
+2023-09-13 11:47:56,361 INFO    wandb-upload_3:6672 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/requirements.txt
+2023-09-13 11:47:56,363 INFO    wandb-upload_4:6672 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/output.log
+2023-09-13 11:47:56,373 INFO    wandb-upload_2:6672 [upload_job.py:push():131] Uploaded file /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/files/conda-environment.yaml
+2023-09-13 11:47:56,574 INFO    Thread-11 :6672 [sender.py:transition_state():612] send defer: 11
+2023-09-13 11:47:56,574 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:56,574 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-13 11:47:56,575 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:56,575 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-13 11:47:56,575 INFO    SenderThread:6672 [file_pusher.py:join():164] waiting for file pusher
+2023-09-13 11:47:56,575 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 12
+2023-09-13 11:47:56,575 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:56,575 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-13 11:47:56,575 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:56,575 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-13 11:47:56,575 INFO    SenderThread:6672 [file_stream.py:finish():593] file stream finish called
+2023-09-13 11:47:56,682 INFO    SenderThread:6672 [file_stream.py:finish():597] file stream finish is done
+2023-09-13 11:47:56,683 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 13
+2023-09-13 11:47:56,683 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:56,684 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-13 11:47:56,684 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:56,685 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-13 11:47:56,685 INFO    SenderThread:6672 [sender.py:transition_state():612] send defer: 14
+2023-09-13 11:47:56,687 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: defer
+2023-09-13 11:47:56,687 DEBUG   SenderThread:6672 [sender.py:send():379] send: final
+2023-09-13 11:47:56,687 INFO    HandlerThread:6672 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-13 11:47:56,688 DEBUG   SenderThread:6672 [sender.py:send():379] send: footer
+2023-09-13 11:47:56,689 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: defer
+2023-09-13 11:47:56,689 INFO    SenderThread:6672 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-13 11:47:56,691 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-13 11:47:56,692 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: server_info
+2023-09-13 11:47:56,693 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-13 11:47:56,694 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: poll_exit
+2023-09-13 11:47:56,695 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: server_info
+2023-09-13 11:47:56,701 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-13 11:47:56,706 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: job_info
+2023-09-13 11:47:56,750 DEBUG   SenderThread:6672 [sender.py:send_request():406] send_request: job_info
+2023-09-13 11:47:56,751 DEBUG   HandlerThread:6672 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-13 11:47:56,752 INFO    HandlerThread:6672 [handler.py:finish():861] shutting down handler
+2023-09-13 11:47:57,710 INFO    WriterThread:6672 [datastore.py:close():294] close: /home/ali/outlier_project/outlier_VAE/wandb/run-20230913_114657-k1w0cuag/run-k1w0cuag.wandb
+2023-09-13 11:47:57,750 INFO    SenderThread:6672 [sender.py:finish():1552] shutting down sender
+2023-09-13 11:47:57,751 INFO    SenderThread:6672 [file_pusher.py:finish():159] shutting down file pusher
+2023-09-13 11:47:57,751 INFO    SenderThread:6672 [file_pusher.py:join():164] waiting for file pusher

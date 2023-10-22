@@ -1,0 +1,7 @@
+setting an array element with a sequence. The requested array has an inhomogeneous shape after 2 dimensions. The detected shape was (3, 2) + inhomogeneous part.
+Traceback (most recent call last):
+  File "/home/ali/anaconda3/envs/rae-project/lib/python3.8/site-packages/pygad/pygad.py", line 1669, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+  File "/tmp/ipykernel_6486/1387042088.py", line 60, in fitness_func
+    avg_in_loss = np.array(avg_in_rec)
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 2 dimensions. The detected shape was (3, 2) + inhomogeneous part.

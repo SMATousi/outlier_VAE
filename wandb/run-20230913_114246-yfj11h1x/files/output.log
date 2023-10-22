@@ -1,0 +1,6 @@
+name 'reconstruction' is not defined
+Traceback (most recent call last):
+  File "/home/ali/anaconda3/envs/rae-project/lib/python3.8/site-packages/pygad/pygad.py", line 1669, in cal_pop_fitness
+    fitness = self.fitness_func(self, sol, sol_idx)
+  File "/tmp/ipykernel_5318/3887349284.py", line 55, in fitness_func
+    z_loss = K.mean(K.square(K.gradients(K.square(reconstruction), z)))
