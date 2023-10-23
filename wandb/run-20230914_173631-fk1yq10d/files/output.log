@@ -1,0 +1,465 @@
+Generation 1
+-0.7087076
+Generation 2
+-0.68400323
+Generation 3
+-0.6379887
+Generation 4
+-0.6257036
+Generation 5
+-0.6257036
+Generation 6
+-0.6158703
+Generation 7
+-0.54260784
+Generation 8
+-0.5040415
+Generation 9
+-0.48531055
+Generation 10
+-0.48341203
+Generation 11
+-0.46095312
+Generation 12
+-0.46095312
+Generation 13
+-0.4589857
+Generation 14
+-0.4589857
+Generation 15
+-0.4546919
+Generation 16
+-0.4546919
+Generation 17
+-0.450891
+Generation 18
+-0.450891
+Generation 19
+-0.450891
+Generation 20
+-0.450891
+Generation 21
+-0.450891
+Generation 22
+-0.450891
+Generation 23
+-0.450891
+Generation 24
+-0.450891
+Generation 25
+-0.450891
+Generation 26
+-0.450891
+Generation 27
+-0.450891
+Generation 28
+-0.450891
+Generation 29
+-0.450891
+Generation 30
+-0.450891
+Generation 31
+-0.450891
+Generation 32
+-0.450891
+Generation 33
+-0.450891
+Generation 34
+-0.450891
+Generation 35
+-0.450891
+Generation 36
+-0.450891
+Generation 37
+-0.450891
+Generation 38
+-0.450891
+Generation 39
+-0.450891
+Generation 40
+-0.450891
+##########  End of the  1  epoch ##########
+Parameters of the best solution : [0. 0. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0. 1. 1. 0. 1. 1. 0. 0. 1. 0. 1. 1. 0.
+ 0. 0. 1. 1. 1. 0.]
+Generation 1
+-0.8582701
+Generation 2
+-0.8115636
+Generation 3
+-0.78099656
+Generation 4
+-0.78099656
+Generation 5
+-0.7431579
+Generation 6
+-0.66837204
+Generation 7
+-0.6631866
+Generation 8
+-0.63359964
+Generation 9
+-0.6326875
+Generation 10
+-0.6243214
+Generation 11
+-0.6137068
+Generation 12
+-0.59439164
+Generation 13
+-0.57880235
+Generation 14
+-0.54726744
+Generation 15
+-0.54726744
+Generation 16
+-0.5293784
+Generation 17
+-0.52245796
+Generation 18
+-0.52245796
+Generation 19
+-0.5220316
+Generation 20
+-0.5220316
+Generation 21
+-0.5220316
+Generation 22
+-0.5220316
+Generation 23
+-0.5206823
+Generation 24
+-0.51306397
+Generation 25
+-0.50773853
+Generation 26
+-0.50773853
+Generation 27
+-0.50773853
+Generation 28
+-0.50773853
+Generation 29
+-0.50773853
+Generation 30
+-0.50773853
+Generation 31
+-0.50773853
+Generation 32
+-0.50773853
+Generation 33
+-0.50773853
+Generation 34
+-0.50773853
+Generation 35
+-0.50773853
+Generation 36
+-0.50773853
+Generation 37
+-0.50773853
+Generation 38
+-0.50773853
+Generation 39
+-0.50773853
+Generation 40
+-0.50773853
+##########  End of the  2  epoch ##########
+Parameters of the best solution : [0. 0. 1. 1. 0. 0. 1. 1. 1. 1. 0. 0. 0. 1. 0. 1. 0. 1. 0. 0. 1. 1. 0. 0.
+ 0. 0. 0. 1. 0. 0.]
+Generation 1
+-0.5999426
+Generation 2
+-0.57416683
+Generation 3
+-0.5709366
+Generation 4
+-0.4859289
+Generation 5
+-0.47998664
+Generation 6
+-0.47791222
+Generation 7
+-0.46081683
+Generation 8
+-0.44665337
+Generation 9
+-0.44665337
+Generation 10
+-0.4381547
+Generation 11
+-0.42063645
+Generation 12
+-0.42063645
+Generation 13
+-0.42063645
+Generation 14
+-0.41352683
+Generation 15
+-0.41352683
+Generation 16
+-0.41352683
+Generation 17
+-0.41352683
+Generation 18
+-0.41352683
+Generation 19
+-0.41352683
+Generation 20
+-0.40775532
+Generation 21
+-0.40775532
+Generation 22
+-0.40775532
+Generation 23
+-0.40775532
+Generation 24
+-0.40775532
+Generation 25
+-0.40775532
+Generation 26
+-0.40775532
+Generation 27
+-0.40775532
+Generation 28
+-0.40775532
+Generation 29
+-0.40775532
+Generation 30
+-0.40775532
+Generation 31
+-0.40775532
+Generation 32
+-0.40775532
+Generation 33
+-0.40775532
+Generation 34
+-0.40775532
+Generation 35
+-0.40775532
+Generation 36
+-0.40775532
+Generation 37
+-0.40775532
+Generation 38
+-0.40775532
+Generation 39
+-0.40775532
+Generation 40
+-0.40775532
+##########  End of the  3  epoch ##########
+Parameters of the best solution : [0. 0. 0. 1. 0. 1. 0. 1. 1. 1. 1. 0. 1. 1. 1. 1. 0. 0. 0. 0. 1. 1. 0. 0.
+ 0. 1. 0. 1. 0. 1.]
+Generation 1
+-0.8297997
+Generation 2
+-0.7697834
+Generation 3
+-0.7292647
+Generation 4
+-0.7292647
+Generation 5
+-0.69881135
+Generation 6
+-0.69881135
+Generation 7
+-0.6733779
+Generation 8
+-0.6395008
+Generation 9
+-0.6067637
+Generation 10
+-0.6067637
+Generation 11
+-0.6067637
+Generation 12
+-0.6067637
+Generation 13
+-0.5773383
+Generation 14
+-0.5773383
+Generation 15
+-0.5773383
+Generation 16
+-0.5773383
+Generation 17
+-0.5742044
+Generation 18
+-0.5742044
+Generation 19
+-0.5742044
+Generation 20
+-0.55588174
+Generation 21
+-0.55286795
+Generation 22
+-0.55286795
+Generation 23
+-0.55286795
+Generation 24
+-0.5464286
+Generation 25
+-0.5464286
+Generation 26
+-0.5464286
+Generation 27
+-0.5464286
+Generation 28
+-0.5464286
+Generation 29
+-0.5464286
+Generation 30
+-0.5464286
+Generation 31
+-0.5464286
+Generation 32
+-0.5464286
+Generation 33
+-0.5464286
+Generation 34
+-0.5464286
+Generation 35
+-0.5464286
+Generation 36
+-0.5464286
+Generation 37
+-0.5464286
+Generation 38
+-0.5464286
+Generation 39
+-0.5464286
+Generation 40
+-0.5464286
+##########  End of the  4  epoch ##########
+Parameters of the best solution : [0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 1. 0. 0. 0.
+ 1. 1. 0. 0. 1. 1.]
+Generation 1
+-1.0267673
+Generation 2
+-0.9478802
+Generation 3
+-0.9478802
+Generation 4
+-0.8706449
+Generation 5
+-0.8436133
+Generation 6
+-0.7745787
+Generation 7
+-0.71159345
+Generation 8
+-0.69115084
+Generation 9
+-0.6674995
+Generation 10
+-0.6674995
+Generation 11
+-0.60798144
+Generation 12
+-0.60798144
+Generation 13
+-0.60798144
+Generation 14
+-0.6076201
+Generation 15
+-0.6076201
+Generation 16
+-0.6076201
+Generation 17
+-0.6076201
+Generation 18
+-0.6076201
+Generation 19
+-0.6076201
+Generation 20
+-0.6046989
+Generation 21
+-0.6046989
+Generation 22
+-0.6046989
+Generation 23
+-0.6044502
+Generation 24
+-0.6044502
+Generation 25
+-0.6044502
+Generation 26
+-0.6044502
+Generation 27
+-0.6044502
+Generation 28
+-0.6044502
+Generation 29
+-0.6044502
+Generation 30
+-0.6044502
+Generation 31
+-0.6044502
+Generation 32
+-0.6044502
+Generation 33
+-0.6044502
+Generation 34
+-0.6044502
+Generation 35
+-0.6044502
+Generation 36
+-0.6044502
+Generation 37
+-0.6044502
+Generation 38
+-0.6044502
+Generation 39
+-0.6044502
+Generation 40
+-0.6044502
+##########  End of the  5  epoch ##########
+Parameters of the best solution : [0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 1.
+ 1. 0. 1. 1. 1. 1.]
+Generation 1
+-181.02284
+Generation 2
+-0.81023926
+Generation 3
+-0.7795508
+Generation 4
+-0.73083216
+Generation 5
+-0.69110644
+Generation 6
+-0.6782361
+Generation 7
+-0.65570337
+Generation 8
+-0.6350245
+Generation 9
+-0.60595155
+Generation 10
+-0.56950206
+Generation 11
+-0.56950206
+Generation 12
+-0.563596
+Generation 13
+-0.563596
+Generation 14
+-0.563596
+Generation 15
+-0.563596
+Generation 16
+-0.563596
+Generation 17
+-0.56153446
+Generation 18
+-0.56153446
+Generation 19
+-0.56153446
+Generation 20
+-0.56153446
+Generation 21
+-0.56153446
+Generation 22
+-0.56153446
+Generation 23
+-0.56153446
+Generation 24
+-0.56153446
+Generation 25
+-0.56153446
