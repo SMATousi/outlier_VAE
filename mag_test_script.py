@@ -4,7 +4,7 @@ import wandb
 
 wandb.init(
     # set the wandb project where this run will be logged
-    project="RAE_OD_MagTest", name="Magnitude Test, num_samples = 500"
+    project="RAE_OD_MagTest", name="Magnitude Test, num_samples = 5000"
     
     # track hyperparameters and run metadata
 #     config={
@@ -17,14 +17,14 @@ wandb.init(
 
 ##################### Testing the Magnitude of the Outliers #######################
 
-mags = [1.5, 2, 4, 8, 16]
+mags = [1.5, 2, 4, 6, 8, 10, 12, 16]
 
 for mag in mags:
 
     print("Starting the stage: ", mag)
 
 
-    precision, recall, f1 = run_RAE(outlier_magnitude_factor = mag, num_samples=500)
+    precision, recall, f1 = run_RAE(outlier_magnitude_factor = mag, num_samples=5000)
 
     wandb.log({"Metrics/mag": mag, "Metrics/Precision": precision, "Metrics/recall": recall, "Metrics/F1": f1})
 
