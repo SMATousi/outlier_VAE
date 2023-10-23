@@ -26,7 +26,7 @@ for mag in mags:
 
     precision, recall, f1 = run_RAE(outlier_magnitude_factor = mag, num_samples=500)
 
-    wandb.log({"Metrics/Precision": precision, "Metrics/recall": recall, "Metrics/F1": f1})
+    wandb.log({"Metrics/mag": mag, "Metrics/Precision": precision, "Metrics/recall": recall, "Metrics/F1": f1})
 
 
 
