@@ -24,7 +24,7 @@ for mag in mags:
     print("Starting the stage: ", mag)
 
 
-    precision, recall, f1 = run_RAE(outlier_magnitude_factor = mag, num_samples=5000)
+    precision, recall, f1 = run_RAE(outlier_magnitude_factor = mag, epochs=200, num_samples=5000)
 
     wandb.log({"Metrics/mag": mag, "Metrics/Precision": precision, "Metrics/recall": recall, "Metrics/F1": f1})
 
