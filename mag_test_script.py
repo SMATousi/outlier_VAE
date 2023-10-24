@@ -22,7 +22,7 @@ ws = [0.001, 0.005, 0.01, 0.05, 0.1, 0.2, 0.5]
 
 for w in ws:
 
-    print("Starting the stage: ", mag)
+    print("Starting the stage: ", w)
 
 
     precision, recall, f1 = run_RAE(z_loss_weight=w, reg_loss_weight=w, epochs=200, num_samples=5000)
