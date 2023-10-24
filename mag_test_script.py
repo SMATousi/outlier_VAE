@@ -4,7 +4,7 @@ import wandb
 
 wandb.init(
     # set the wandb project where this run will be logged
-    project="RAE_OD_MagTest", name="Wtest, ep=200 num_samples = 5000"
+    project="RAE_OD_MagTest", name="Dtest, ep=200 num_samples = 5000"
     
     # track hyperparameters and run metadata
 #     config={
