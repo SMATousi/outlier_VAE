@@ -463,7 +463,7 @@ def run_VAE(outlier_magnitude_factor = 10,
 
         vae = VAE(encoder, decoder)
         vae.compile(optimizer=tf.keras.optimizers.Adam())
-        history = vae.fit(creditdata, epochs=epochs, batch_size=batch_size, verbos=0)  
+        history = vae.fit(creditdata, epochs=epochs, batch_size=batch_size, verbose=0)  
         
         
         
