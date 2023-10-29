@@ -100,7 +100,8 @@ def run_RAE(outlier_magnitude_factor = 10,
         # x = layers.Conv2D(32, 3, activation="relu", strides=2, padding="same")(encoder_inputs)
         # x = layers.Conv2D(64, 3, activation="relu", strides=2, padding="same")(x)
         # x = layers.Flatten()(x)
-        x = layers.Dense(20, activation="sigmoid")(encoder_inputs)
+        x = layers.Dense(num_dimensions, activation="sigmoid")(encoder_inputs)
+        x = layers.Dense(20, activation="sigmoid")(x)
         x = layers.Dense(18, activation="sigmoid")(x)
         x = layers.Dense(16, activation="sigmoid")(x)
         encoder_output = layers.Dense(latent_dim, activation="sigmoid")(x)
@@ -385,7 +386,7 @@ def run_VAE(outlier_magnitude_factor = 10,
                 return z_mean + tf.exp(0.5 * z_log_var) * epsilon
 
 
-#         latent_dim = latent_dim
+        latent_dim = latent_dim
 
         encoder_inputs = keras.Input(shape=(num_dimensions,))
         # x = layers.Conv2D(32, 3, activation="relu", strides=2, padding="same")(encoder_inputs)
@@ -488,7 +489,7 @@ def run_VAE(outlier_magnitude_factor = 10,
             
             sample = inliers[i,0,:].reshape([1,num_dimensions])
 
-            z = vae.encoder(sample)
+            z_mean, z_log_var, z = vae.encoder(sample)
             reconstruction = vae.decoder(z)
 
             reconstruction_loss = tf.keras.losses.MeanSquaredError()(sample,reconstruction)
@@ -499,7 +500,7 @@ def run_VAE(outlier_magnitude_factor = 10,
             
             sample = outliers[i,0,:].reshape([1,num_dimensions])
 
-            z = vae.encoder(sample)
+            z_mean, z_log_var, z = vae.encoder(sample)
             reconstruction = vae.decoder(z)
 
             reconstruction_loss = tf.keras.losses.MeanSquaredError()(sample,reconstruction)
@@ -529,7 +530,7 @@ def run_VAE(outlier_magnitude_factor = 10,
             
             sample = X_train[i,:].reshape([1,num_dimensions])
 
-            z = vae.encoder(sample)
+            z_mean, z_log_var, z = vae.encoder(sample)
             reconstruction = vae.decoder(z)
 
             reconstruction_loss = tf.keras.losses.MeanSquaredError()(sample,reconstruction)
