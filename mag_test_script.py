@@ -4,7 +4,7 @@ import wandb
 
 wandb.init(
     # set the wandb project where this run will be logged
-    project="RAE_OD_MagTest", name="Dtest, ep=200 num_samples = 5000"
+    project="RAE_VAE_OD_MagTest", name="latent_test, ep=200 num_samples = 5000"
     
     # track hyperparameters and run metadata
 #     config={
@@ -27,9 +27,9 @@ for latent_dim in latent_dims:
     print("Starting the stage: ", latent_dim)
 
 
-    rae_precision, rae_recall, rae_f1 = run_RAE(latent_dim = latent_dim, z_loss_weight=0.1, reg_loss_weight=0.1, epochs=200, num_dimensions=10, num_samples=50)
+    rae_precision, rae_recall, rae_f1 = run_RAE(latent_dim = latent_dim, z_loss_weight=0.1, reg_loss_weight=0.1, epochs=200, num_dimensions=10, num_samples=5000)
     
-    vae_precision, vae_recall, vae_f1 = run_VAE(latent_dim = latent_dim, epochs=200, num_dimensions=10, num_samples=50)
+    vae_precision, vae_recall, vae_f1 = run_VAE(latent_dim = latent_dim, epochs=200, num_dimensions=10, num_samples=5000)
 
     wandb.log({"Metrics/latent_dim": latent_dim, "Metrics/RAE-Precision": rae_precision, "Metrics/RAE-recall": rae_recall, "Metrics/RAE-F1": rae_f1, "Metrics/VAE-Precision": vae_precision, "Metrics/VAE-recall": vae_recall, "Metrics/VAE-F1": vae_f1})
 
