@@ -375,7 +375,7 @@ def run_VAE(outlier_magnitude_factor = 10,
         
 
         class Sampling(layers.Layer):
-        """Uses (z_mean, z_log_var) to sample z, the vector encoding a digit."""
+            """Uses (z_mean, z_log_var) to sample z, the vector encoding a digit."""
 
             def call(self, inputs):
                 z_mean, z_log_var = inputs
