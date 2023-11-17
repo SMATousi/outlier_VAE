@@ -469,3 +469,103 @@ def vae_detect_outliers(data,
     classes = np.array(classes)
 
     return classes
+
+
+def csv_data_loader(name):
+
+    if name == "aloi":
+
+        csv_file = './dataverse_files/aloi-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+    if name == "annthyroid":
+
+        csv_file = './dataverse_files/annthyroid-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+    
+    if name == "breast-cancer":
+
+        csv_file = './dataverse_files/breast-cancer-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+    if name == "kdd99":
+
+        csv_file = './dataverse_files/kdd99-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+    if name == "letter":
+
+        csv_file = './dataverse_files/letter-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+    
+    if name == "pen-global":
+
+        csv_file = './dataverse_files/pen-global-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+    if name == "pen-local":
+
+        csv_file = './dataverse_files/pen-local-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+    if name == "satellite":
+
+        csv_file = './dataverse_files/satellite-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+    
+    if name == "shuttle":
+
+        csv_file = './dataverse_files/shuttle-unsupervised-ad.csv'
+        data = pd.read_csv(csv_file)
+        last_column = data.iloc[:, -1].values
+        last_column = np.where(last_column == "o", 0, 1)
+        labels = last_column
+        data = np.array(data)
+        data_n = data[:,:-1]
+
+
+
+    return data_n, labels
+    
+
+ 
