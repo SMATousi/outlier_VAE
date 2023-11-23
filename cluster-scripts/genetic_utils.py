@@ -223,8 +223,6 @@ def train_RAE(data,
         
                 REG_loss = K.mean(K.square(K.gradients(K.square(reconstruction), z)))
 
-                z_loss_w = z_loss_w
-                REG_loss_w = REG_loss_w
 
                 total_loss = reconstruction_loss +  z_loss_w * z_loss + REG_loss_w * REG_loss
             
@@ -336,45 +334,46 @@ def run_genetic_on_sample(inlier_samples,
 
         # fitness = rec_loss / (avg_in_rec + 10*avg_in_z)
         fitness = rec_loss / avg_in_rec
+        print(fitness)
 
         return -fitness
 
-        fitness_function = fitness_func
-        num_generations = num_generations
-        num_parents_mating = num_parents_mating
-        sol_per_pop = sol_per_pop
-        num_genes = num_dims
-        init_range_low = init_range_low
-        init_range_high = init_range_high
-        parent_selection_type = parent_selection_type
-        K_tournament = K_tournament
-        keep_parents = keep_parents
-        space = [[0,1] for i in range(num_genes)]
-        crossover_type = crossover_type
-        mutation_type = mutation_type
-        mutation_percent_genes = mutation_percent_genes
+    fitness_function = fitness_func
+    num_generations = num_generations
+    num_parents_mating = num_parents_mating
+    sol_per_pop = sol_per_pop
+    num_genes = num_dims
+    init_range_low = init_range_low
+    init_range_high = init_range_high
+    parent_selection_type = parent_selection_type
+    K_tournament = K_tournament
+    keep_parents = keep_parents
+    space = [[0,1] for i in range(num_genes)]
+    crossover_type = crossover_type
+    mutation_type = mutation_type
+    mutation_percent_genes = mutation_percent_genes
 
-        ga_instance = pygad.GA(num_generations=num_generations,
-                           num_parents_mating=num_parents_mating,
-                           fitness_func=fitness_function,
-                           sol_per_pop=sol_per_pop,
-                           num_genes=num_genes,
-                           init_range_low=init_range_low,
-                           init_range_high=init_range_high,
-                           parent_selection_type=parent_selection_type,
-                           K_tournament = K_tournament,
-                           keep_parents=keep_parents,
-                        #    keep_elitism=5,
-                           crossover_type=crossover_type,
-                           mutation_type=mutation_type,
-                           mutation_percent_genes=mutation_percent_genes,
-                           on_generation=on_generation,
-                           gene_space = space)
-        ga_instance.run()
+    ga_instance = pygad.GA(num_generations=num_generations,
+                       num_parents_mating=num_parents_mating,
+                       fitness_func=fitness_function,
+                       sol_per_pop=sol_per_pop,
+                       num_genes=num_genes,
+                       init_range_low=init_range_low,
+                       init_range_high=init_range_high,
+                       parent_selection_type=parent_selection_type,
+                       K_tournament = K_tournament,
+                       keep_parents=keep_parents,
+                    #    keep_elitism=5,
+                       crossover_type=crossover_type,
+                       mutation_type=mutation_type,
+                       mutation_percent_genes=mutation_percent_genes,
+#                        on_generation=on_generation,
+                       gene_space = space)
+    ga_instance.run()
 
-        solution, solution_fitness, solution_idx = ga_instance.best_solution()
+    solution, solution_fitness, solution_idx = ga_instance.best_solution()
 
-        return solution
+    return solution
 
 
 def rae_detect_outliers(data,
