@@ -6,7 +6,8 @@ import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
 import pygad
-import wandb
+# import wandb
+import pandas as pd
 import tensorflow.keras.backend as K
 from tensorflow.python.client import device_lib
 from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_score
@@ -91,7 +92,7 @@ def train_VAE(data,
     
     latent_dim = latent_dim
 
-    encoder_inputs = keras.Input(shape=(num_dimensions,))
+    encoder_inputs = keras.Input(shape=(num_dims,))
     x = layers.Dense(num_dims, activation="tanh")(encoder_inputs)
     x = layers.Dense(hidden_layer_n[0], activation="tanh")(x)
     x = layers.Dense(hidden_layer_n[1], activation="tanh")(x)
@@ -151,10 +152,9 @@ def train_VAE(data,
 
     vae = VAE(encoder, decoder)
     vae.compile(optimizer=tf.keras.optimizers.Adam())
-    history = vae.fit(creditdata,epochs=epochs,batch_size=batch_size,verbose=0)
+    history = vae.fit(creditdata,epochs=epochs,batch_size=batch_size,verbose=1)
 
     return vae, history
-
 
 
 
@@ -423,7 +423,6 @@ def rae_detect_outliers(data,
 
     return classes
 
-
 def vae_detect_outliers(data,
                         vae_model,
                         num_dims
@@ -434,16 +433,19 @@ def vae_detect_outliers(data,
     for i in range(data.shape[0]):
             
         sample = data[i,:].reshape([1,num_dims])
+        sample = sample.astype('float32')
 
         z_mean, z_log_var, z = vae_model.encoder(sample)
-        reconstruction = rae_model.decoder(z)
+        reconstruction = vae_model.decoder(z)
 
         reconstruction_loss = tf.keras.losses.MeanSquaredError()(sample,reconstruction)
         
         data_mean.append(reconstruction_loss)
     
     data_mean = np.array(data_mean)
-    data_std = np.std(data_mean)
+    i_mean = np.mean(data_mean)
+    i_std = np.std(data_mean)
+    
 
     threshold = i_mean + 3*i_std
 
@@ -452,9 +454,10 @@ def vae_detect_outliers(data,
     for i in range(data.shape[0]):
             
         sample = data[i,:].reshape([1,num_dims])
+        sample = sample.astype('float32')
 
         z_mean, z_log_var, z = vae_model.encoder(sample)
-        reconstruction = rae_model.decoder(z)
+        reconstruction = vae_model.decoder(z)
 
         reconstruction_loss = tf.keras.losses.MeanSquaredError()(sample,reconstruction)
         
@@ -585,7 +588,7 @@ def csv_data_loader(name):
 
     if name == "mnist-06":
 
-        csv_file = './dataverse_files/mnist_06_combined.csv'
+        csv_file = '../dataverse_files/mnist_06_combined.csv'
         data = pd.read_csv(csv_file)
         last_column = data.iloc[:, -1].values
         last_column = np.where(last_column == "o", 0, 1)
@@ -595,7 +598,7 @@ def csv_data_loader(name):
 
     if name == "mnist-25":
 
-        csv_file = './dataverse_files/mnist_25_combined.csv'
+        csv_file = '../dataverse_files/mnist_25_combined.csv'
         data = pd.read_csv(csv_file)
         last_column = data.iloc[:, -1].values
         last_column = np.where(last_column == "o", 0, 1)
