@@ -55,13 +55,13 @@ num_dims = data.shape[1]
 
 if arg_modelname == "VAE":
 
-    model, history = train_VAE(data, num_dims=num_dims, hidden_layer_n=[512, 256, 128] )
+    model, history = train_VAE(data, num_dims=num_dims, latent_dim=1, hidden_layer_n=[512, 256, 128] )
     print("######################## Training Done ######################")
 
 
 if arg_modelname == "RAE":
 
-    model, history = train_RAE(data, num_dims=num_dims, hidden_layer_n=[512, 256, 128] )
+    model, history = train_RAE(data, num_dims=num_dims, latent_dim=2, hidden_layer_n=[512, 256, 128] )
     print("######################## Training Done ######################")
 
 
