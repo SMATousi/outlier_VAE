@@ -605,7 +605,22 @@ def csv_data_loader(name):
         data = np.array(data)
         data_n = data[:,:-1]
 
-
+    if name == "creditcard":
+        
+        csv_file = '../dataverse_files/creditcard.csv'
+        data = pd.read_csv(csv_file)
+        data = np.array(data)
+        labels = data[:,-1]
+        data_n = data[:,:-1]
+        
+    
+    if name == "musk":
+        
+        csv_file = '../dataverse_files/musk.csv'
+        data = pd.read_csv(csv_file)
+        data = np.array(data)
+        labels = data[:,-1]
+        data_n = data[:,:-1]
 
     return data_n, labels
     
