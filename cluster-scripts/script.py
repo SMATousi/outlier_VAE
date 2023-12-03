@@ -11,7 +11,7 @@ parser.add_argument("--runname", type=str, required=True)
 parser.add_argument("--projectname", type=str, required=True)
 parser.add_argument("--modelname", type=str, required=True)
 parser.add_argument("--datasetname", type=str, required=True)
-# parser.add_argument("--savingstep", type=int, default=10)
+parser.add_argument("--latentdim", type=int, default=2)
 parser.add_argument("--epochs", type=int, default=100)
 # parser.add_argument("--nottest", help="Enable verbose mode", action="store_true")
 
@@ -24,6 +24,7 @@ arg_epochs = args.epochs
 arg_runname = args.runname
 arg_projectname = args.projectname
 arg_modelname = args.modelname
+arg_latentdim = args.latentdim
 
 
 
@@ -55,13 +56,13 @@ num_dims = data.shape[1]
 
 if arg_modelname == "VAE":
 
-    model, history = train_VAE(data, num_dims=num_dims, latent_dim=1, hidden_layer_n=[512, 256, 128] )
+    model, history = train_VAE(data, num_dims=num_dims, latent_dim=arg_latentdim, hidden_layer_n=[512, 256, 128] )
     print("######################## Training Done ######################")
 
 
 if arg_modelname == "RAE":
 
-    model, history = train_RAE(data, num_dims=num_dims, latent_dim=2, hidden_layer_n=[512, 256, 128] )
+    model, history = train_RAE(data, num_dims=num_dims, latent_dim=arg_latentdim, hidden_layer_n=[512, 256, 128] )
     print("######################## Training Done ######################")
 
 
