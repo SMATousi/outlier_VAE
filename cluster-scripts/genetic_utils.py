@@ -152,7 +152,7 @@ def train_VAE(data,
 
     vae = VAE(encoder, decoder)
     vae.compile(optimizer=tf.keras.optimizers.Adam())
-    history = vae.fit(creditdata,epochs=epochs,batch_size=batch_size,verbose=1)
+    history = vae.fit(creditdata,epochs=epochs,batch_size=batch_size,verbose=0)
 
     return vae, history
 
@@ -378,7 +378,8 @@ def run_genetic_on_sample(inlier_samples,
 
 def rae_detect_outliers(data,
                         rae_model,
-                        num_dims
+                        num_dims,
+                        std_k
                         ):
 
     data_mean = []
@@ -386,6 +387,7 @@ def rae_detect_outliers(data,
     for i in range(data.shape[0]):
             
         sample = data[i,:].reshape([1,num_dims])
+        sample = sample.astype('float32')
 
         z = rae_model.encoder(sample)
         reconstruction = rae_model.decoder(z)
@@ -395,15 +397,17 @@ def rae_detect_outliers(data,
         data_mean.append(reconstruction_loss)
     
     data_mean = np.array(data_mean)
+    i_mean = np.mean(data_mean)
     data_std = np.std(data_mean)
 
-    threshold = i_mean + 3*i_std
+    threshold = i_mean + std_k*data_std
 
     classes = []
 
     for i in range(data.shape[0]):
             
         sample = data[i,:].reshape([1,num_dims])
+        sample = sample.astype('float32')
 
         z = rae_model.encoder(sample)
         reconstruction = rae_model.decoder(z)
@@ -412,11 +416,11 @@ def rae_detect_outliers(data,
         
         if reconstruction_loss > threshold:
             
-            classes.append(1)
+            classes.append(0)
             
         else:
             
-            classes.append(0)
+            classes.append(1)
 
     classes = np.array(classes)
 
@@ -424,7 +428,8 @@ def rae_detect_outliers(data,
 
 def vae_detect_outliers(data,
                         vae_model,
-                        num_dims
+                        num_dims,
+                        std_k
                         ):
 
     data_mean = []
@@ -446,7 +451,7 @@ def vae_detect_outliers(data,
     i_std = np.std(data_mean)
     
 
-    threshold = i_mean + 3*i_std
+    threshold = i_mean + std_k*i_std
 
     classes = []
 
@@ -462,11 +467,11 @@ def vae_detect_outliers(data,
         
         if reconstruction_loss > threshold:
             
-            classes.append(1)
+            classes.append(0)
             
         else:
             
-            classes.append(0)
+            classes.append(1)
 
     classes = np.array(classes)
 
