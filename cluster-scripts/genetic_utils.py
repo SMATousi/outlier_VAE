@@ -567,7 +567,7 @@ def csv_data_loader(name):
 
     if name == "fashion-TB":
 
-        csv_file = './dataverse_files/fashion_mnist_TB_combined.csv'
+        csv_file = '../dataverse_files/fashion_mnist_TB_combined.csv'
         data = pd.read_csv(csv_file)
         last_column = data.iloc[:, -1].values
         last_column = np.where(last_column == "o", 0, 1)
@@ -577,7 +577,7 @@ def csv_data_loader(name):
 
     if name == "fashion-TP":
 
-        csv_file = './dataverse_files/fashion_mnist_TP_combined.csv'
+        csv_file = '../dataverse_files/fashion_mnist_TP_combined.csv'
         data = pd.read_csv(csv_file)
         last_column = data.iloc[:, -1].values
         last_column = np.where(last_column == "o", 0, 1)
