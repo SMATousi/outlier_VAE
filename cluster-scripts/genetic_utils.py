@@ -15,8 +15,8 @@ from sklearn.metrics import confusion_matrix, precision_score, recall_score, f1_
 # print(device_lib.list_local_devices())
 
 import matplotlib.pyplot as plt
-tf.random.set_seed(0)
-np.random.seed(0)
+# tf.random.set_seed(0)
+# np.random.seed(0)
 
 
 def generate_dataset_refined(n_samples=100000, n_outliers=100, dimensions=20):
