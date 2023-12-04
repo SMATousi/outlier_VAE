@@ -52,8 +52,6 @@ num_dims = data.shape[1]
 
 # Training the model
 
-
-
 if arg_modelname == "VAE":
 
     model, history = train_VAE(data, num_dims=num_dims, latent_dim=arg_latentdim, hidden_layer_n=[512, 256, 128] )

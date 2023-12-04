@@ -93,19 +93,19 @@ def train_VAE(data,
     latent_dim = latent_dim
 
     encoder_inputs = keras.Input(shape=(num_dims,))
-    x = layers.Dense(num_dims, activation="tanh")(encoder_inputs)
-    x = layers.Dense(hidden_layer_n[0], activation="tanh")(x)
-    x = layers.Dense(hidden_layer_n[1], activation="tanh")(x)
-    x = layers.Dense(hidden_layer_n[2], activation="tanh")(x)
+    x = layers.Dense(num_dims, activation="sigmoid")(encoder_inputs)
+    x = layers.Dense(hidden_layer_n[0], activation="sigmoid")(x)
+    x = layers.Dense(hidden_layer_n[1], activation="sigmoid")(x)
+    x = layers.Dense(hidden_layer_n[2], activation="sigmoid")(x)
     z_mean = layers.Dense(latent_dim, name="z_mean")(x)
     z_log_var = layers.Dense(latent_dim, name="z_log_var")(x)
     z = Sampling()([z_mean, z_log_var])
     encoder = keras.Model(encoder_inputs, [z_mean, z_log_var, z], name="encoder")
 
     latent_inputs = keras.Input(shape=(latent_dim,))
-    x = layers.Dense(hidden_layer_n[2], activation="tanh")(latent_inputs)
-    x = layers.Dense(hidden_layer_n[1], activation="tanh")(x)
-    x = layers.Dense(hidden_layer_n[0], activation="tanh")(x)
+    x = layers.Dense(hidden_layer_n[2], activation="sigmoid")(latent_inputs)
+    x = layers.Dense(hidden_layer_n[1], activation="sigmoid")(x)
+    x = layers.Dense(hidden_layer_n[0], activation="sigmoid")(x)
     decoder_outputs = layers.Dense(num_dims, activation="linear")(x)
     decoder = keras.Model(latent_inputs, decoder_outputs, name="decoder")
 
